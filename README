@@ -1,0 +1,43 @@
+> Release 2.3.3 May 14, 2010
+>
+> Module Updates
+>
+>     * Adjust JS for Law School’s personalized Search Function URL
+>     * There have been dozens of CSS related changes to the design of the templates. These are mainly minor issues. They are broken down with a further list:
+>     * CSS changes to improve cross-browser compatibility across template frameworks and modules.
+>     * CSS changes to further match visual design’s original PSDs on a pixel level of accuracy.
+>     * CSS changes to fix various minor layout bugs and limitations.
+>     * Several images changed to better match Visual Design
+>
+> Complete List of CSS Updates
+>
+>     * G-1 Added close mechanism to menu
+>     * G-1 "On rollover, ""Students"" Faculty,"" etc., underline removal
+>     * G-1 Color change to better match VD on background
+>     * CM-3 “Play” link is only visible now after a tab is selected.
+>     * F1/F2 Blue bar stretch and left align ‘The George…’
+>     * F-2 Fix link overflow in IE
+>     * F-2 Remove underline on mouseover
+>     * H-1 “Learn More” guillemet, not triangle lead
+>     * H-1-3 “Learn More” link consistency
+>     * H-5 Remove link weight change on rollover
+>     * CM-4;-1,-2 Improve consistency
+>     * CM-7a Top align text and image
+>     * CM-7a Match typography internally
+>     * CM-10 Change text formatting to match VD
+>     * CM-10 Padding issue, VD match
+>     * CM-11 Adjust leading to match VD
+>     * CM-13 Adjust leading to match VD
+>     * CM-16 Adjust padding to match VD
+>     * CM-18 Adjust padding to match VD
+>     * CM-22 Add » to link, adjust padding to match VD
+>     * CM-23 Adjust Headline size to match VD
+>     * CM-24 Add » to link, adjust line-spacing to match VD
+>     * CM27 Fix IE close button not displaying
+>     * G1 & F2 Color match Phase 1
+>     * CM4, CM14, CM35 Make modules variable height
+>
+> Other Notes
+> This release is focussed on matching Visual Design up with Site Development as well as the Module Library. Much of the release period has been focussed on bringing a consensus to issues such as the ePhox editor tags and variable/fixed height in certain modules.
+>
+> Please be sure to update your copies of the JS and CSS folders for this release. Changes were made to a huge variety of files within these directories.
