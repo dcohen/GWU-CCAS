@@ -632,6 +632,20 @@
 	position: relative;
 }
 
+#moduleCM3 .videoCarousel .videoThumb img.videoThumbOverlay {
+	display: none;
+}
+
+#moduleCM3 .videoCarousel .videoThumb.current:hover img.videoThumbOverlay {
+	position: absolute;
+	top: 11px;
+	left: 23px;
+	height: 39px;
+	width: 39px;
+	display: block;
+}
+
+
 #moduleCM3 .videoCarousel .videoThumb:hover {
 	opacity: 1.0;
 }
@@ -656,6 +670,7 @@
 #moduleCM3 .videoCarousel .videoThumb img {
 	float: left;
 	padding: 6px 1.0em 6px 0;
+	position: absolute;
 }
 
 #moduleCM3 .videoCarousel .videoThumb .caption {
