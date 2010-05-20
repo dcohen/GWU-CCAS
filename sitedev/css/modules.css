@@ -619,6 +619,10 @@
 	margin-right: 1.0em;
 }
 
+#moduleCM3 img {
+	margin: 0;
+}
+
 #moduleCM3 .videoCarousel div.line {
 	width: 212px !important;
 	margin: 0 !important;
@@ -645,7 +649,6 @@
 	display: block;
 }
 
-
 #moduleCM3 .videoCarousel .videoThumb:hover {
 	opacity: 1.0;
 }
@@ -657,6 +660,7 @@
 
 #moduleCM3 .videoCarousel .videoThumb .caption span {
 	display: none;
+	font-size: 11px;
 }
 
 #moduleCM3 .videoCarousel .videoThumb .caption span:hover {
@@ -670,7 +674,6 @@
 #moduleCM3 .videoCarousel .videoThumb img {
 	float: left;
 	padding: 6px 1.0em 6px 0;
-	position: absolute;
 }
 
 #moduleCM3 .videoCarousel .videoThumb .caption {
