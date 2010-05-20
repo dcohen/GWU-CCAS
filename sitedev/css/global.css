@@ -256,9 +256,9 @@ body {
 	font-size: 1.2em;
 	color: #000;
 	font-weight: bold;
-	margin: 2.0em 0 0 0;
+	margin: 1.0em 0 0 0;
 	padding: 0 0 0 0;
-	background-position: 15px center;
+	background-position: 15px 15px center;
 	background-repeat: no-repeat;
 	position: relative;
 }
@@ -274,7 +274,7 @@ body {
 }
 
 #container #contentWrapperShadow #contentWrapper #alert p {
-	padding: 0.6em 16.0em 3.0em 9.0em;
+	padding: 1.6em 16.0em 3.0em 9.0em;
 	line-height: 1.4em;
 	position: relative;
 	margin-bottom: -2.0em;
@@ -282,10 +282,12 @@ body {
 
 #container #contentWrapperShadow #contentWrapper #alert a.alertMore {
 	position: absolute;
-	right: 20px;
-	top: 28px;
+	right: 50px;
+	top: 15px;
 	display: block;
-	width: 132px;x`
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 132px;
 	height: 20px;
 	text-indent: -9999em;
 }
