@@ -73,8 +73,8 @@ $(document).ready(function()
 	$("a.photoGallery").fancybox({
 		'type'				: 'iframe',
 		'hideOnContentClick': true,
-		'width'         	: 615,
-		'height'        	: 580,
+		'width'         	: 525,
+		'height'        	: 510,
 		'scrolling'			: 'no',
 		'hideOnContentClick': false,
 		'autoDimensions'	: false,
