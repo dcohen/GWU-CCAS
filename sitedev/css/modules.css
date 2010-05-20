@@ -726,7 +726,7 @@
 
 #moduleCM3 .videoCarousel .videoThumb.current a.photoGallery,
 #moduleCM3 .videoCarousel .videoThumb.current a.youtube {
-	z-index: 1;
+	z-index: 3;
 }
 
 #moduleCM3 .videoDescription p {
