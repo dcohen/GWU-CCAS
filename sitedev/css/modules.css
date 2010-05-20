@@ -1829,7 +1829,7 @@
 }
 
 #moduleCM14 .spotlightCarousel ul {
-	width: 106px;
+	width: 82px;
 	padding: 0.5em 0;
 	margin-left: auto;
 	margin-right: auto;
@@ -2557,7 +2557,6 @@
 
 .moduleCM35 {
 	margin-top: 2.0em;
-	height: 250px;
 	position: relative;
 }
 
@@ -2601,11 +2600,13 @@
 	padding: 0.5em 0;
 	margin-left: auto !important;
 	margin-right: auto !important;
+	margin-bottom: 0 !important;
 	list-style: none;
 }
 
 .moduleCM35 .spotlightCarousel ul li {
 	float: left;
+	margin-top: -1.3em;
 }
 
 .moduleCM35 .spotlightCarousel ul li a {
