@@ -1932,6 +1932,7 @@
 	display: block;
 	width: 100%;
 	line-height: 2.0em;
+	font-size: 12px;
 }
 
 #moduleCM18 {
@@ -2361,6 +2362,7 @@
 	color: #2971a7;
 	margin-bottom: 1.0em;
 	display: block;
+	font-size: 12px;
 }
 
 #moduleCM31 div.letter a {
