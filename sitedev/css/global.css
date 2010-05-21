@@ -6,6 +6,164 @@ body {
 	font-size: 62.5%;
 }
 
+
+/* EPHOX CSS */
+
+/* These styles are not actually in use:
+h1 {
+	font-size: 2.2em;
+	font-weight: bold;
+	color: #555;
+	font-family: Arial, sans-serif;
+}
+
+h2 {
+	font-size: 1.8em;
+	font-weight: bold;
+	color: #555;
+	font-family: Arial, sans-serif;
+}
+
+*/
+
+h3 {
+	font-size: 14px;
+	font-weight: bold;
+	color: #555;
+	font-family: Arial, sans-serif;
+	margin-bottom: 1.0em;
+}
+
+h4 {
+	font-size: 12px;
+	font-weight: bold;
+	color: #555;
+	font-family: Arial, sans-serif;
+	margin-bottom: 1.0em;
+}
+
+h5 {
+	font-size: 11px;
+	font-weight: bold;
+	color: #555;
+	font-family: Arial, sans-serif;
+	margin-bottom: 1.0em;
+}
+
+h6 {
+	font-size: 11px;
+	font-weight: bold;
+	color: #998c7a;
+	font-family: Arial, sans-serif;
+	margin-bottom: 1.0em;
+}
+
+#contentNav p,
+#contentRelated p {
+	color: #555;
+	font-size: 11px;
+	font-family: Arial, sans-serif;
+	margin-bottom: 1.0em;
+	line-height: 1.3em;
+}
+
+#contentMain p {
+	color: #555;
+	font-size: 12px;
+	font-family: Arial, sans-serif;
+	margin-bottom: 1.0em;
+	line-height: 1.3em;
+}
+
+#contentNav blockquote,
+#contentRelated blockquote {
+	color: #555;
+	font-size: 11px;
+	font-family: Georgia, serif;
+	font-style: italic;
+	margin-left: 2.0em;
+	margin-bottom: 1.0em;
+	line-height: 1.3em;
+}
+
+#contentMain blockquote {
+	color: #555;
+	font-size: 12px;
+	font-family: Georgia, serif;
+	font-style: italic;
+	margin-left: 2.0em;
+	margin-bottom: 1.0em;
+	line-height: 1.3em;
+}
+
+#contentNav ul,
+#contentRelated ul {
+	font-size: 11px;
+	margin-left: 1.0em;
+	padding-left: 1.0em;
+	margin-bottom: 1.0em;
+	list-style: disc inside;
+	line-height: 1.3em;
+}
+
+#contentMain ul {
+	font-size: 12px;
+	margin-left: 1.0em;
+	padding-left: 1.0em;
+	margin-bottom: 1.0em;
+	list-style: disc inside;
+	line-height: 1.3em;
+}
+
+ul {
+	list-style: disc inside;
+}
+
+#contentNav ol,
+#contentRelated ol {
+	font-size: 11px;
+	list-style: decimal inside;
+	margin-left: 1.0em;
+	padding-left: 1.0em;
+	margin-bottom: 1.0em;
+	line-height: 1.3em;
+}
+
+#contentMain ol {
+	font-size: 12px;
+	list-style: decimal inside;
+	margin-left: 1.0em;
+	padding-left: 1.0em;
+	margin-bottom: 1.0em;
+	line-height: 1.3em;
+}
+
+img {
+	border: none 0;
+	margin-bottom: 1.0em;
+}
+
+#contentNav table,
+#contentRelated table,
+#contentMain table {
+	margin-bottom: 1.0em;
+}
+
+#contentNav td,
+#contentRelated td {
+	padding: 0.5em;
+	border: 1px solid #84A8B1;
+}
+
+#contentMain td {
+	padding: 0.5em;
+	border: 1px solid #C8C0B9;
+}
+
+
+/* END EPHOX */
+
+
 /* Structure */
 
 #container {
@@ -49,6 +207,10 @@ body {
 
 #container #header #topHat #mainMenu {
 	float: left;
+}
+
+#container #header #topHat #mainMenu ul {
+	list-style: none;
 }
 
 #container #header #topHat #mainMenu ul.parent {
@@ -175,7 +337,7 @@ body {
 	text-transform: capitalize;
 	float: none;		
 	color: #073f5e;
-	border-top: 0px solid #f1f9fe;
+	border-top: 1px solid transparent;
 	line-height: 10px;
 }
 
@@ -339,6 +501,7 @@ body {
 	background-color: #e8e0ce;
 	height: 22px;
 	border-bottom: 2px solid #fff;
+	list-style: none;
 }
 
 #container #contentWrapperShadow #contentWrapper #heroMenu ul li {
@@ -388,6 +551,7 @@ body {
 
 #container #contentWrapperShadow #contentWrapper #heroMenu ul li ul.leftAlign {
 	left: 0;
+	height: 294px;
 }
 
 #container #contentWrapperShadow #contentWrapper #heroMenu ul li ul li {
@@ -399,14 +563,14 @@ body {
 	
 }
 
-#container #contentWrapperShadow #contentWrapper #heroMenu ul li ul li.parted14,
-#container #contentWrapperShadow #contentWrapper #heroMenu ul li ul li.parted27,
+#container #contentWrapperShadow #contentWrapper #heroMenu ul li ul li.parted13,
+#container #contentWrapperShadow #contentWrapper #heroMenu ul li ul li.parted26,
 #container #contentWrapperShadow #contentWrapper #heroMenu ul li ul li.parted39,
-#container #contentWrapperShadow #contentWrapper #heroMenu ul li ul li.parted50 {
+#container #contentWrapperShadow #contentWrapper #heroMenu ul li ul li.parted51 {
 	margin-top: -294px;
 }
 
-
+#container #contentWrapperShadow #contentWrapper #heroMenu ul li ul li.parted13,
 #container #contentWrapperShadow #contentWrapper #heroMenu ul li ul li.parted14,
 #container #contentWrapperShadow #contentWrapper #heroMenu ul li ul li.parted15,
 #container #contentWrapperShadow #contentWrapper #heroMenu ul li ul li.parted16,
@@ -418,11 +582,11 @@ body {
 #container #contentWrapperShadow #contentWrapper #heroMenu ul li ul li.parted22,
 #container #contentWrapperShadow #contentWrapper #heroMenu ul li ul li.parted23,
 #container #contentWrapperShadow #contentWrapper #heroMenu ul li ul li.parted24,
-#container #contentWrapperShadow #contentWrapper #heroMenu ul li ul li.parted25,
-#container #contentWrapperShadow #contentWrapper #heroMenu ul li ul li.parted26 {
+#container #contentWrapperShadow #contentWrapper #heroMenu ul li ul li.parted25 {
 	margin-left: 188px;
 } 
 
+#container #contentWrapperShadow #contentWrapper #heroMenu ul li ul li.parted26,
 #container #contentWrapperShadow #contentWrapper #heroMenu ul li ul li.parted27,
 #container #contentWrapperShadow #contentWrapper #heroMenu ul li ul li.parted28, 
 #container #contentWrapperShadow #contentWrapper #heroMenu ul li ul li.parted29,
@@ -448,11 +612,11 @@ body {
 #container #contentWrapperShadow #contentWrapper #heroMenu ul li ul li.parted46,
 #container #contentWrapperShadow #contentWrapper #heroMenu ul li ul li.parted47, 
 #container #contentWrapperShadow #contentWrapper #heroMenu ul li ul li.parted48,
-#container #contentWrapperShadow #contentWrapper #heroMenu ul li ul li.parted49 {
+#container #contentWrapperShadow #contentWrapper #heroMenu ul li ul li.parted49,
+#container #contentWrapperShadow #contentWrapper #heroMenu ul li ul li.parted50 {
 	margin-left: 562px;
 } 
 
-#container #contentWrapperShadow #contentWrapper #heroMenu ul li ul li.parted50,
 #container #contentWrapperShadow #contentWrapper #heroMenu ul li ul li.parted51,
 #container #contentWrapperShadow #contentWrapper #heroMenu ul li ul li.parted52,
 #container #contentWrapperShadow #contentWrapper #heroMenu ul li ul li.parted53,
@@ -465,10 +629,10 @@ body {
 #container #contentWrapperShadow #contentWrapper #heroMenu ul li ul li.parted60,
 #container #contentWrapperShadow #contentWrapper #heroMenu ul li ul li.parted61,
 #container #contentWrapperShadow #contentWrapper #heroMenu ul li ul li.parted62,
-#container #contentWrapperShadow #contentWrapper #heroMenu ul li ul li.parted63 {
+#container #contentWrapperShadow #contentWrapper #heroMenu ul li ul li.parted63,
+#container #contentWrapperShadow #contentWrapper #heroMenu ul li ul li.parted64 {
 	margin-left: 750px;
 } 
-
 
 #container #contentWrapperShadow #contentWrapper #heroMenu ul li ul li a {
 	text-transform: capitalize;
@@ -528,6 +692,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	width: 240px;
+	list-style: none;
 }
 
 #container #contentWrapperShadow #contentWrapper #hero #heroLabel ul li {
@@ -541,16 +706,10 @@ body {
 	width: 240px;
 }
 
-#container #contentWrapperShadow #contentWrapper #hero #heroLabel ul li.current a {
-	font-weight: bold;
-	color: #fff;
-}
-
 #container #contentWrapperShadow #contentWrapper #hero #heroLabel ul li a:hover {
 	color: #fff;
 	background-image: url(../images/bgHeroLabelHighlight.png);
 	background-repeat: repeat-x;
-	font-weight: bold;
 	text-decoration: none;
 }
 
@@ -590,6 +749,7 @@ body {
 	margin-top: 5.5em;
 	position: absolute;
 	z-index: 13;
+	list-style: none;
 }
 
 #container #contentWrapperShadow #contentWrapper #hero #heroImage ul#heroRollover li {
@@ -685,7 +845,7 @@ body {
 	height: 30px;
 	font-size: 1.1em;
 	font-weight: bold;
-	
+	list-style: none;
 }
 
 #container #contentWrapperShadow #contentWrapper #hero #heroImage #heroPlayer ul li {
@@ -734,7 +894,7 @@ body {
 	font-size: 10px;
 	font-family: Arial;
 	font-weight: bold;
-	background-image: url(../images/arrowRightMore.gif);
+	background-image: url(../images/arrowCM33List.gif);
 	background-position: left;
 	background-repeat: no-repeat;	
 }
@@ -807,6 +967,7 @@ body {
 	font-family: Arial;
 	margin-bottom: 0.5em;
 	letter-spacing: -1px;
+	line-height: 1.1em;
 }
 
 #container #contentWrapperShadow #contentWrapper div.line {
@@ -882,6 +1043,7 @@ body {
 
 #container #contentWrapperShadow #contentWrapper #contentMain .pagination ul {
 	float: right;
+	list-style: none;
 }
 
 #container #contentWrapperShadow #contentWrapper #contentMain .pagination ul li {
@@ -930,13 +1092,20 @@ body {
 	margin-top: 3em;
 }
 
+#container #contentWrapperShadow #contentWrapper #footer ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
 #container #contentWrapperShadow #contentWrapper #footer h3 {
 	color: #063956;
 	text-transform: uppercase;
-	font-size: 1.2em;
-	font-family: Georgia;
+	font-size: 1.4em;
+	font-family: Times;
 	
 	margin-bottom: 1.0em;
+	font-weight: normal;
 }
 
 #container #contentWrapperShadow #contentWrapper #footer div.hr {
@@ -1015,7 +1184,7 @@ body {
 
 #container #contentWrapperShadow #contentWrapper #footer #footerParentMenu h2 {
 	font-size: 1.4em;
-	font-family: Georgia;
+	font-family: Times;
 	line-height: 28px;
 	text-transform: uppercase;
 	

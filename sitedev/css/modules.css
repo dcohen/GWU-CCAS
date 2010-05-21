@@ -653,6 +653,10 @@
 	margin-right: 1.0em;
 }
 
+#moduleCM3 img {
+	margin: 0;
+}
+
 #moduleCM3 .videoCarousel div.line {
 	width: 212px !important;
 	margin: 0 !important;
@@ -691,6 +695,7 @@
 
 #moduleCM3 .videoCarousel .videoThumb .caption span {
 	display: none;
+	font-size: 11px;
 }
 
 #moduleCM3 .videoCarousel .videoThumb .caption span:hover {
@@ -726,13 +731,13 @@
 
 #moduleCM3 .videoCarousel .videoThumb.current a.photoGallery,
 #moduleCM3 .videoCarousel .videoThumb.current a.youtube {
-	z-index: 3;
+	z-index: 1;
 }
 
 #moduleCM3 .videoDescription p {
 	font-family: Arial;
 	font-size: 1.2em;
-	line-height: 1.2em;
+	line-height: 1.3em;
 	margin-bottom: 1.0em;
 }
 
@@ -760,8 +765,8 @@
 #moduleCM3-1 .videoDescription p {
 	font-family: Arial;
 	font-size: 1.2em;
-	line-height: 1.2em;
-	margin-bottom: 1.0em;
+	line-height: 1.3em;
+	margin-bottom: 0;
 }
 
 #moduleCM3-1 .videoDescription div.line {
@@ -1054,7 +1059,7 @@
 }
 
 #moduleCM5 {
-	margin-top: 1.0em;
+	margin-top: 3.0em;
 }
 
 #moduleCM5 .event {
@@ -1829,7 +1834,7 @@
 }
 
 #moduleCM14 .spotlightCarousel ul {
-	width: 82px;
+	width: 106px;
 	padding: 0.5em 0;
 	margin-left: auto;
 	margin-right: auto;
@@ -2081,7 +2086,6 @@
 }
 
 #moduleCM22 ul a {
-	font-size: 1.2em;
 	line-height: 1.4em;
 	text-decoration: none;
 }
@@ -2559,7 +2563,6 @@
 
 .moduleCM35 {
 	margin-top: 2.0em;
-	position: relative;
 }
 
 .moduleCM35 img {
