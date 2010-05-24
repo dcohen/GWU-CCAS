@@ -1934,7 +1934,6 @@
 }
 
 #moduleCM16-2 .linkList ul li a {
-	display: block;
 	width: 100%;
 	line-height: 2.0em;
 	font-size: 12px;
@@ -2365,7 +2364,6 @@
 #moduleCM31 div.letter ul li a {
 	color: #2971a7;
 	margin-bottom: 1.0em;
-	display: block;
 	font-size: 12px;
 }
 
