@@ -1988,6 +1988,10 @@
 	font-size: 1.2em;
 }
 
+#moduleCM20.single h3 {
+	margin-top: 0;
+}
+
 #moduleCM20 a.more {
 	font-style: normal !important;
 	font-family: Arial !important;
@@ -2017,6 +2021,15 @@
 	width: 220px;
 	margin-right: 1.0em;
 	margin-bottom: 1.0em;
+}
+
+#moduleCM20.single .moduleItem .itemImage {
+	width: auto;
+}
+
+#moduleCM20.single .moduleItem img {
+	float: left;
+	margin-right: 1.0em;
 }
 
 #moduleCM20 .moduleItem .itemImageMiddle {
