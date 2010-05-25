@@ -502,6 +502,7 @@ img {
 	height: 22px;
 	border-bottom: 2px solid #fff;
 	list-style: none;
+	width: 100%;
 }
 
 #container #contentWrapperShadow #contentWrapper #heroMenu ul li {
