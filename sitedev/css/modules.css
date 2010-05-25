@@ -2525,15 +2525,15 @@
 	padding: 0;
 	list-style: none;
 	list-style: url(../images/arrowCM33List.gif) outside !important;
-	padding: 0 0 1.0em 2.5em;
+	padding: 0 0 0 2.5em;
 }
 
 .moduleCM33-1 .linkList ul li a {
 	display: block;
 	width: 100%;
-	font-weight: bold;
-	font-size: 1.2em;
-	line-height: 2.0em;
+	font-weight: normal;
+	font-size: 1.1em;
+	line-height: 1.7em;
 }
 
 .moduleCM33-2 {
@@ -2562,6 +2562,7 @@
 
 .moduleCM33-2 a span {
 	color: #fff;
+	font-size: 1.4em;
 }
 
 .moduleCM35 {
