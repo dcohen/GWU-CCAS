@@ -49,7 +49,6 @@
 	background-image: url(../images/arrowHorizontalCarousel.gif);
 	width: 6px;
 	background-position: 0px center;
-	padding-top: -10px;
 	background-repeat: no-repeat;
 	text-indent: -9999em;
 	cursor: pointer;
@@ -104,10 +103,6 @@
 
 #moduleMM1 ul li.carouselItem.current span {
 	font-weight: normal;
-}
-
-#moduleMM1 .wrapperMM1 .carouselItem img.videoThumbOverlay {
-	display: hidden;
 }
 
 #moduleMM1 .wrapperMM1 .carouselItem.current img.videoThumbOverlay {
@@ -1469,7 +1464,6 @@
   	height: 184px;
   	width: 6px;
 	background-position: 0px center;
-	padding-top: -10px;
 	background-repeat: no-repeat;
 	text-indent: -9999em;
 	margin-right: 0px;
@@ -1486,7 +1480,6 @@
   	height: 184px;
   	width: 6px;
 	background-position: -6px center;
-	padding-top: -10px;
 	background-repeat: no-repeat;
 	text-indent: -9999em;
 	margin-right: 10px;
