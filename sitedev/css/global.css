@@ -502,7 +502,7 @@ img {
 	height: 22px;
 	border-bottom: 2px solid #fff;
 	list-style: none;
-	width: 100%;
+	
 }
 
 #container #contentWrapperShadow #contentWrapper #heroMenu ul li {
@@ -516,7 +516,7 @@ img {
 	text-transform: uppercase;
 	display: block;
 	padding: 5px 1.5em 6px 1.5em;
-	font-size: 1.1em;
+	font-size: 11px;
 	border-right: 2px solid #fff;	
 }
 
@@ -637,10 +637,10 @@ img {
 
 #container #contentWrapperShadow #contentWrapper #heroMenu ul li ul li a {
 	text-transform: capitalize;
-	padding: 0 0 0 24px;
-	width: 164px;
+	padding: 0 0 0 25px;
+	width: 163px;
 	border: none;
-	font-size: 1.1em;
+	font-size: 11px;
 	font-weight: normal;
 	background-image: url(../images/bgCollegeChildMenuDotOff.gif);
 	background-position: 17px top;
