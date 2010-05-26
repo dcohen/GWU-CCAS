@@ -726,6 +726,12 @@
 
 #moduleCM3 .videoCarousel .videoThumb.current a.photoGallery,
 #moduleCM3 .videoCarousel .videoThumb.current a.youtube {
+	width: 223px;
+	height: 73px;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
 	z-index: 1;
 }
 
@@ -1251,7 +1257,7 @@
 
 #moduleCM7-1 .descriptionFeature {
 	margin-left: 170px;
-	margin-bottom: 4.0em;
+	margin-bottom: 0em;
 }
 
 #moduleCM7-1 .descriptionFeature ul {
