@@ -2858,12 +2858,14 @@
 }
 
 #moduleMS1 a {
-	color: #2971a7;		
+	color: #2971a7;
+	font-size: 1.1em;
+	line-height: 1.2em;		
 }
 
 #moduleMS1 h3 {
-	margin: 1.0em 0;
-	font-size: 1.2em;
+	margin: 0;
+	font-size: 1.1em;
 	line-height: 1.2em;
 	font-weight: bold;	
 }
