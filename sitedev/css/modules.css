@@ -2568,6 +2568,7 @@
 }
 
 .moduleCM35 {
+	margin-top: 3.0em;
 }
 
 .moduleCM35 img {
@@ -2663,10 +2664,6 @@
 .moduleCM34 {
 	margin-top: 3.0em;
 	position: relative;
-}
-
-.moduleCM34 {
-	margin-bottom: 1.0em;
 }
 
 .moduleCM34 img {
