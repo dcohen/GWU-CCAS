@@ -698,7 +698,7 @@
 
 #moduleCM3 .videoCarousel .videoThumb .caption span {
 	display: none;
-	font-size: 11px;
+	font-size: 1.1em;
 }
 
 #moduleCM3 .videoCarousel .videoThumb .caption span:hover {
@@ -1519,7 +1519,7 @@
 	color: #2971a7;
 	display: block;
 	line-height: 2.0em;
-	font-size: 1.1em;
+	font-size: 1.2em;
 }
 
 #moduleCM11 {
