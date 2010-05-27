@@ -2089,7 +2089,8 @@
 	list-style: none;
 	margin-top: -1.0em;
 	margin-bottom: 1.0em;
-	list-style: url(../images/arrowCM33List.gif) inside;
+	margin-left: 1.0em;
+	list-style: url(../images/arrowCM33List.gif) outside;
 }
 
 #moduleCM22 ul a {
