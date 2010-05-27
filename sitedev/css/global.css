@@ -1031,11 +1031,14 @@ img {
 	font-size: 1.2em;
 	font-family: Georgia;
 	font-style: italic;
+	line-height: 1.3em;
 }
 
 #container #contentWrapperShadow #contentWrapper #contentMain .pagination span {
 	font-family: Arial;
 	font-style: normal;
+	float: left;
+	margin-left: 2.0em;
 }
 
 #container #contentWrapperShadow #contentWrapper #contentMain .pagination .viewAll {
@@ -1045,6 +1048,7 @@ img {
 #container #contentWrapperShadow #contentWrapper #contentMain .pagination ul {
 	float: right;
 	list-style: none;
+	margin-bottom: 0.5em;
 }
 
 #container #contentWrapperShadow #contentWrapper #contentMain .pagination ul li {
@@ -1058,6 +1062,7 @@ img {
 
 #container #contentWrapperShadow #contentWrapper #contentMain .pagination .line {
 	margin: 0.5em 0;
+	clear: both;
 }
 
 #container #contentWrapperShadow #contentWrapper #contentMain .pagination .left {
