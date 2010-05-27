@@ -231,7 +231,7 @@
 }
 
 #moduleMM2 a {
-	color: #2a72a7;
+	color: #2971A7;
 	font-size: 1.1em;
 }
 
@@ -250,7 +250,7 @@
 }
 
 #moduleMM2-1 a {
-	color: #2a72a7;
+	color: #2971A7;
 	font-size: 1.1em;
 }
 
@@ -266,7 +266,7 @@
 }
 
 #moduleMM2-2 a {
-	color: #2a72a7;
+	color: #2971A7;
 	font-size: 1.1em;
 }
 
@@ -297,7 +297,7 @@
 }
 
 #moduleMM3 a {
-	color: #2a72a7;
+	color: #2971A7;
 	font-size: 1.1em;
 }
 
@@ -324,26 +324,31 @@
 }
 
 #moduleMM4 a {
-	color: #2a72a7;
+	color: #2971A7;
 	font-size: 1.1em;
 }
 
 #moduleMM4 ul {
 	margin: 0;
 	padding: 0;
-	margin: 0.5em 0 -0.5em 0;
+	margin: 0.5em 0 0 0;
 	list-style: none;
 }
 
 #moduleMM4 ul li {
 	float: left;
-	padding: 0 0.8em;
-	border-right: 1px solid #2a72a7;
-	height: 2.0em;
+	padding: 0 0.55em;
+	border-right: 1px solid #2971A7;
+	height: 1.3em;
 }
 
 #moduleMM4 ul li a {
 	padding: 0;
+	margin-bottom: 0.5em !important;
+}
+
+#moduleMM4 ul li a.more {
+	margin-top: 0 !important;
 }
 
 #moduleMM4 ul li.first {
@@ -355,6 +360,9 @@
 	border-right: 0 none;
 }
 
+#moduleMM4 div.line {
+	margin: 0.5em 0 0 0 !important;
+}
 
 /* Side Navigation Modules */
 
@@ -690,7 +698,7 @@
 
 #moduleCM3 .videoCarousel .videoThumb .caption span {
 	display: none;
-	font-size: 11px;
+	font-size: 1.1em;
 }
 
 #moduleCM3 .videoCarousel .videoThumb .caption span:hover {
@@ -914,11 +922,11 @@
 }
 
 #moduleCM4-1 .spotlightCarousel ul li a:hover {
-	background-color: #2a72a7;
+	background-color: #2971A7;
 }
 
 #moduleCM4-1 .spotlightCarousel ul li.current a {
-	background-color: #2a72a7;
+	background-color: #2971A7;
 }
 
 #moduleCM4-1 .spotlightCarousel ul li.prev a {
@@ -1027,11 +1035,11 @@
 }
 
 #moduleCM4-2 .spotlightCarousel ul li a:hover {
-	background-color: #2a72a7;
+	background-color: #2971A7;
 }
 
 #moduleCM4-2 .spotlightCarousel ul li.current a {
-	background-color: #2a72a7;
+	background-color: #2971A7;
 }
 
 #moduleCM4-2 .spotlightCarousel ul li.prev a {
@@ -1102,7 +1110,7 @@
 }
 
 #moduleCM5 .event .eventDescription a {
-	color: #2a72a7;	
+	color: #2971A7;	
 	font-weight: bold;
 	font-family: Arial;
 	display: block;
@@ -1139,7 +1147,7 @@
 }
 
 #moduleCM5-1 .event .eventDescription a {
-	color: #2a72a7;	
+	color: #2971A7;	
 	font-weight: bold;
 	font-family: Arial;
 	display: block;
@@ -1511,7 +1519,7 @@
 	color: #2971a7;
 	display: block;
 	line-height: 2.0em;
-	font-size: 1.1em;
+	font-size: 1.2em;
 }
 
 #moduleCM11 {
@@ -1850,11 +1858,11 @@
 }
 
 #moduleCM14 .spotlightCarousel ul li a:hover {
-	background-color: #2a72a7;
+	background-color: #2971A7;
 }
 
 #moduleCM14 .spotlightCarousel ul li.current a {
-	background-color: #2a72a7;
+	background-color: #2971A7;
 }
 
 #moduleCM14 .spotlightCarousel ul li.prev a {
@@ -1882,14 +1890,23 @@
 	background-color: transparent;
 }
 
-#moduleCM15 a.addThis {
+#moduleCM15 {
+	height: 16px;
+	width: 70px;
 	float: right;
+	margin-bottom: -2.0em;
+}
+
+#moduleCM15 a.addThis {
 	height: 0;
-	margin-top: -2.0em;
 }
 
 #moduleCM15.solo a.addThis {
 	margin-top: 0;
+}
+
+#moduleCM15.solo a.addThis img {
+	margin-bottom: 0;
 }
 
 #moduleCM16-1 .linkList {
@@ -2370,9 +2387,12 @@
 	list-style: url(../images/arrowCM33List.gif) outside !important;
 }
 
+#moduleCM31 div.letter ul li {
+	margin-bottom: 0.8em;	
+}
+
 #moduleCM31 div.letter ul li a {
 	color: #2971a7;
-	margin-bottom: 1.0em;
 	font-size: 12px;
 }
 
@@ -2630,11 +2650,11 @@
 }
 
 .moduleCM35 .spotlightCarousel ul li a:hover {
-	background-color: #2a72a7;
+	background-color: #2971A7;
 }
 
 .moduleCM35 .spotlightCarousel ul li.current a {
-	background-color: #2a72a7;
+	background-color: #2971A7;
 }
 
 .moduleCM35 .spotlightCarousel ul li.prev a {

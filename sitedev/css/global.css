@@ -633,15 +633,15 @@ img {
 
 #container #contentWrapperShadow #contentWrapper #hero #heroImage #heroPlayer ul li a {
 	display: block;	
-	color: #2a72a7;
+	color: #2971A7;
 	padding: 0 0.6em;
 	cursor: pointer;
 }
 
 #container #contentWrapperShadow #contentWrapper #hero #heroImage #heroPlayer ul li a#playHeroPlayer,
 #container #contentWrapperShadow #contentWrapper #hero #heroImage #heroPlayer ul li a#pauseHeroPlayer {
-	border-right: 1px solid #2a72a7;
-	border-left: 1px solid #2a72a7;
+	border-right: 1px solid #2971A7;
+	border-left: 1px solid #2971A7;
 	text-indent: -9999em;
 	background-image: url(../images/bgHeroPlayerPlay.png);
 	width: 9px;
@@ -825,7 +825,7 @@ img {
 #container #contentWrapperShadow #contentWrapper #contentMain .pagination ul {
 	float: right;
 	list-style: none;
-	margin-bottom: 0.5em;
+	margin-bottom: 0.4em;
 }
 
 #container #contentWrapperShadow #contentWrapper #contentMain .pagination ul li {
@@ -919,12 +919,16 @@ img {
 }
 
 #container #contentWrapperShadow #contentWrapper #footer #footerRight #footerChildMenu {
-
 }
 
 #container #contentWrapperShadow #contentWrapper #footer #footerRight #footerChildMenu a {
 	color: #847d6e;
 }
+
+#container #contentWrapperShadow #contentWrapper #footer #footerRight #footerChildMenu br {
+	clear: both;
+}
+
 
 #container #contentWrapperShadow #contentWrapper #footer #footerRight #footerChildMenu ul li {
 	float: left;
@@ -936,10 +940,11 @@ img {
 #container #contentWrapperShadow #contentWrapper #footer #footerRight #footerChildMenu ul li.first {
 	padding-left: 0;
 	border: 0;
+	float: left;
 }
 
 #container #contentWrapperShadow #contentWrapper #footer #footerRight #footerChildMenu ul.social {
-	margin-top: 1.0em;
+	margin-top: -3.0em;
 	padding-top: 1.0em;
 	border-top: 1px solid #ccc;
 }
@@ -955,11 +960,16 @@ img {
 	line-height: 18px;
 	background-position: left;
 	background-repeat: no-repeat;
-	padding-left: 2.5em;
+	padding-left: 2.0em;
+}
+
+#container #contentWrapperShadow #contentWrapper #footer #footerChildMenu ul.social li.first a {
+	padding-left: 0;
+	border: 0;
 }
 
 #container #contentWrapperShadow #contentWrapper #footer #footerParentMenu {
-	margin-top: 2.0em;
+	margin-top: 3.0em;
 	height: 28px;
 	width: 100%;
 	background-color: #063957;
@@ -991,9 +1001,9 @@ img {
 }
 
 #container #contentWrapperShadow #contentWrapper #footer #footerParentMenu ul li a {	
-	color: #6e9fbf;
+	color: #a2d6ff;
 	padding: 0 1.0em;
-	border-left: 1px solid #6e9fbf;
+	border-left: 1px solid #a2d6ff;
 }
 
 #container #contentWrapperShadow #contentWrapper #footer #footerParentMenu ul li.first a {
