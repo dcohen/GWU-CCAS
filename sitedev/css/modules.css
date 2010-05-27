@@ -2378,9 +2378,12 @@
 	list-style: url(../images/arrowCM33List.gif) outside !important;
 }
 
+#moduleCM31 div.letter ul li {
+	margin-bottom: 0.8em;	
+}
+
 #moduleCM31 div.letter ul li a {
 	color: #2971a7;
-	margin-bottom: 1.0em;
 	font-size: 12px;
 }
 
