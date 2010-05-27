@@ -2363,10 +2363,10 @@
 }
 
 #moduleCM31 div.letter ul {
-	margin: 0;
 	padding: 0;
 	margin-top: 1.0em;
-	list-style: url(../images/arrowCM33List.gif) inside !important;
+	margin-left: 1.0em;
+	list-style: url(../images/arrowCM33List.gif) outside !important;
 }
 
 #moduleCM31 div.letter ul li a {
