@@ -2451,7 +2451,8 @@
 #moduleCM32 .dateNav {
 	background-color:#2971a7;
 	width: 100%;
-	margin: 0;
+	height: 30px;
+	margin: 2.0em 0 2.0em 0;
 }
 
 #moduleCM32 .dateNav h3 {
@@ -2459,11 +2460,10 @@
 }
 
 #moduleCM32 .dateNav ul {
-	margin: 0;
+	margin: 0 0 0 0.5em;
 	padding: 0;
 	list-style: none;
 	height: 30px;
-	margin: 2.0em 0 2.0em 5px;
 	width: 100%;
 }
 
