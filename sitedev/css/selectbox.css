@@ -27,8 +27,11 @@
   list-style-type:none;
   display:block;
   margin:0;
-  padding:2px;
+  padding: 2px;
   cursor:pointer;
+  font-family: Arial;
+  font-size: 10px;
+  font-weight: bold;
 }
 
 #search label {

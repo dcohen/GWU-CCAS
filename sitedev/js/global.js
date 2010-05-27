@@ -104,6 +104,9 @@ $(document).ready(function()
 	/* Apply fancybox to multiple items */
 
 	// END: FancyBox
+	
+	/* TOP HAT NECESSITIES BEGIN */
+	
 	var searchValue;
 	
 	
@@ -125,9 +128,19 @@ $(document).ready(function()
 			$(this).attr('action','http://www.law.gwu.edu/Search/Default.aspx?k='+$(this).find('#searchInput').val());
 	});
 	
-	
-	
 	$('#myselectbox').selectbox({debug: true});
+	
+	//close button in mainMenu
+	$('#mainMenu ul.parent li ul.child li.close a').live('click',
+		function() {
+		$('div#header').animate({
+			height: '47px'
+		}, "fast", function() {
+			$('ul.child:visible').hide()
+		});	
+		$('#mainMenu ul.parent li a').removeClass('current');		
+	});
+	
 	
 	$('#heroImage ul#heroRollover li a').hover(								
 		function() {					
@@ -143,6 +156,59 @@ $(document).ready(function()
 	
 	if($('#hero').hasClass('autoPlay'))
 		startSlideShow();
+		
+	$('a.secondaryMenuOne').live('click',								
+		function() {						
+			if($('ul.child:last').is(':visible')) {
+				$('ul.child:last').fadeOut()
+				$('ul.child:first').fadeIn('slow')						
+				$(this).parent().next().children().removeClass('current');
+				$(this).addClass('current');
+				exit();						
+			}
+			if($('div#header').height() < 100) {
+				$('ul.child:first').show()
+				$('div#header').animate({
+					height: '205px'
+				}, "fast");		
+				$(this).addClass('current');
+			} else {
+				$('div#header').animate({
+					height: '47px'
+				}, "fast", function() {
+					$('ul.child:first').hide()
+				});	
+				$(this).removeClass('current');						
+			}	
+						
+	});
+	$('a.secondaryMenuTwo').live('click',								
+		function() {	
+			if($('ul.child:first').is(':visible')) {
+				$('ul.child:first').fadeOut()
+				$('ul.child:last').fadeIn('slow')						
+				$(this).parent().prev().children().removeClass('current');
+				$(this).addClass('current');
+				exit();							
+			}					
+			if($('div#header').height() < 100) {
+				$('ul.child:last').show()
+				$('div#header').animate({
+					height: '205px'
+				}, "fast");		
+				$(this).addClass('current');
+			} else {
+				$('div#header').animate({
+					height: '47px'
+				}, "fast", function() {
+					$('ul.child:last').hide()
+				});	
+				$(this).removeClass('current');						
+			}	
+						
+	});
+	
+	/* TOP HAT NECESSITIES END */
 	
 	
 	$('#heroImage #heroPlayer li a').live('click',								
@@ -235,16 +301,7 @@ $(document).ready(function()
 		$('#moduleCM32 div.year'+$(this).text()+'').fadeIn();		
 	});
 	
-	//close button in mainMenu
-	$('#mainMenu ul.parent li ul.child li.close a').live('click',
-		function() {
-		$('div#header').animate({
-			height: '47px'
-		}, "fast", function() {
-			$('ul.child:visible').hide()
-		});	
-		$('#mainMenu ul.parent li a').removeClass('current');		
-	});
+	
 	
 	$('.spotlightCarousel a').live('click',
 		function() {					
@@ -461,56 +518,7 @@ $(document).ready(function()
 		$('#moduleCM10 ul[id=linkList'+$(this).attr('value')+']').show();
 	});
 	
-	$('a.secondaryMenuOne').live('click',								
-		function() {						
-			if($('ul.child:last').is(':visible')) {
-				$('ul.child:last').fadeOut()
-				$('ul.child:first').fadeIn('slow')						
-				$(this).parent().next().children().removeClass('current');
-				$(this).addClass('current');
-				exit();						
-			}
-			if($('div#header').height() < 100) {
-				$('ul.child:first').show()
-				$('div#header').animate({
-					height: '205px'
-				}, "fast");		
-				$(this).addClass('current');
-			} else {
-				$('div#header').animate({
-					height: '47px'
-				}, "fast", function() {
-					$('ul.child:first').hide()
-				});	
-				$(this).removeClass('current');						
-			}	
-						
-	});
-	$('a.secondaryMenuTwo').live('click',								
-		function() {	
-			if($('ul.child:first').is(':visible')) {
-				$('ul.child:first').fadeOut()
-				$('ul.child:last').fadeIn('slow')						
-				$(this).parent().prev().children().removeClass('current');
-				$(this).addClass('current');
-				exit();							
-			}					
-			if($('div#header').height() < 100) {
-				$('ul.child:last').show()
-				$('div#header').animate({
-					height: '205px'
-				}, "fast");		
-				$(this).addClass('current');
-			} else {
-				$('div#header').animate({
-					height: '47px'
-				}, "fast", function() {
-					$('ul.child:last').hide()
-				});	
-				$(this).removeClass('current');						
-			}	
-						
-	});	
+		
 	
 	
 	//ACCORDIAN CALL
