@@ -235,7 +235,7 @@
 
 #container #header #topHat #mainMenu ul.parent li a {
 	display: block;
-	color: #6e9fbf;
+	color: #a2d6ff;
 	text-decoration: none;
 	background-image: url(../images/arrowRight.gif);
 	background-position: right;
@@ -254,7 +254,7 @@
 }
 
 #container #header #topHat #mainMenu ul.parent li a:visited {
-	color: #6e9fbf;
+	color: #a2d6ff;
 	text-decoration: none;
 }
 
