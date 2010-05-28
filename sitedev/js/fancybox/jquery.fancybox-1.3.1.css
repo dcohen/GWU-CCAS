@@ -110,8 +110,8 @@
 	right: -15px;
 	width: 30px;
 	height: 30px;
-	background-image: url('fancybox.png');
-	background-position: -40px 0px;
+	background-image: url('fancy_close.png');
+	background-position: -30px 0px;
 	cursor: pointer;
 	z-index: 1103;
 	display: none;

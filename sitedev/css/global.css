@@ -266,7 +266,7 @@ img {
 }
 
 #container #contentWrapperShadow #contentWrapper #heroMenu {
-	background-color: #b2a38f;
+	background-color: #4282b1;
 	height: 28px;
 	border-bottom: 2px solid #fff;
 	position: relative;
@@ -275,7 +275,7 @@ img {
 }
 
 #container #contentWrapperShadow #contentWrapper #heroMenu ul {
-	background-color: #e8e0ce;
+	background-color: #ede2cd;
 	height: 22px;
 	border-bottom: 2px solid #fff;
 	list-style: none;
@@ -288,7 +288,7 @@ img {
 
 #container #contentWrapperShadow #contentWrapper #heroMenu ul li a {
 	background-color: #e8e0ce;
-	color: #555;
+	color: #333333;
 	font-weight: bold;
 	text-transform: uppercase;
 	display: block;
@@ -299,9 +299,9 @@ img {
 
 #container #contentWrapperShadow #contentWrapper #heroMenu ul li:hover a,
 #container #contentWrapperShadow #contentWrapper #heroMenu ul li a.current {
-	background-color: #ab9d8a;
+	background-color: #4282B1;
 	color: #fff;	
-	border-bottom: 2px solid #ab9d8a;
+	border-bottom: 2px solid #4282b1;
 	text-decoration: none;
 }
 
@@ -312,7 +312,7 @@ img {
 	
 	z-index: 3;
 	/*border: 1px solid #ab9d8a;*/
-	border-top: 6px solid #ab9d8a;
+	border-top: 6px solid #4282b1;
 	
 	background-color: #f6f3eb;
 	background-image: url(../images/bgHeroNavShadow.gif);
@@ -320,9 +320,9 @@ img {
 	padding-top: 13px;
 	
 	height: auto;
-	border-left: 1px solid #ab9d8a;
-	border-right: 1px solid #ab9d8a;
-	border-bottom: 1px solid #ab9d8a;
+	border-left: 1px solid #4282b1;
+	border-right: 1px solid #4282b1;
+	border-bottom: 1px solid #4282b1;
 	
 	padding-bottom: 1.0em;
 }
@@ -546,7 +546,7 @@ img {
 	border: 1px solid #fff;
 	border-top: none;
 	border-left: none;
-	background-color: #b2a38f;
+	background-color: #2971a7;
 	padding-left: 7px;
 	
 }
@@ -715,16 +715,16 @@ img {
 #container #contentWrapperShadow #contentWrapper #contentMain div.hr,
 #container #contentWrapperShadow #contentWrapper #contentRelated div.hr {
 	height: 12px;
-	background-color: #b7dfe6;
-	border-top: 1px solid #77aeb9;
+	background-color: #eee4d1;
+	border-top: 1px solid #b5b4b4	;
 	width: 100%;
 	margin-top: 1.0em;
 	margin-bottom: 1.0em;
 }
 
 #container #contentWrapperShadow #contentWrapper #contentMain div.hr {
-	background-color: #ebe5dd;
-	border-top: 1px solid #cdc3b8;
+	background-color: #4282b1;
+	border-top: 1px solid #1a496b;
 }
 
 #container #contentWrapperShadow #contentWrapper #contentNav div.hr.small,
@@ -895,8 +895,8 @@ img {
 
 #container #contentWrapperShadow #contentWrapper #footer div.hr {
 	height: 6px;
-	background-color: #ebe5dd;
-	border-top: 1px solid #cbc3b7;
+	background-color: #4282b1;
+	border-top: 1px solid #1a496b;
 	width: 100%;
 	
 	margin-bottom: 2.0em;

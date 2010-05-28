@@ -9,3 +9,8 @@
 #container #contentWrapperShadow #contentWrapper #contentMain #moduleCM3 .videoCarousel .videoThumb.current {
 	background-image: url(../images/bgVideoAggregatorCurrent.png);
 }
+
+#container #contentWrapperShadow #contentWrapper #contentMain #moduleCM3 .videoCarousel .videoThumb .caption {
+	margin-top: 2.0em;
+	padding-top: 0;
+}
