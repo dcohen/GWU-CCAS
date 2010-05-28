@@ -504,6 +504,7 @@ img {
 
 #container #contentWrapperShadow #contentWrapper #hero.medium #heroImage {
 	height: 216px;
+	position: relative;
 }
 
 #container #contentWrapperShadow #contentWrapper #hero #heroImage #heroSlideSet img.activeHeroImage {
@@ -528,10 +529,10 @@ img {
 	position: absolute;
 	z-index: 13;
 	list-style: none;
+	list-style-position: outside;
 }
 
 #container #contentWrapperShadow #contentWrapper #hero #heroImage ul#heroRollover li {
-
 }
 
 #container #contentWrapperShadow #contentWrapper #hero #heroImage ul#heroRollover li a {
@@ -547,6 +548,7 @@ img {
 	border-left: none;
 	background-color: #2971a7;
 	padding-left: 7px;
+	
 }
 
 #container #contentWrapperShadow #contentWrapper #hero #heroImage ul#heroRollover li.first a {

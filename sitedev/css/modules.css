@@ -281,6 +281,15 @@
 	height: 39px;
 	width: 39px;
 }
+
+#moduleMM2-2 .videoThumbOverlay {
+	display: none;
+}
+
+#moduleMM2-2:hover .videoThumbOverlay {
+	display: block;
+}
+
 #moduleMM3 {
 	margin-top: 3.0em;
 	position: relative;
@@ -307,6 +316,14 @@
 	left: 90px;
 	height: 39px;
 	width: 39px;
+}
+
+#moduleMM3 .videoThumbOverlay {
+	display: none;
+}
+
+#moduleMM3:hover .videoThumbOverlay {
+	display: block;
 }
 
 #moduleMM4 {
@@ -605,17 +622,25 @@
 }
 
 .moduleCM1 .linkList ul {
-	list-style: url(../images/arrowCM33List.gif) inside !important;
-	padding: 0 !important;
-	margin: 0 !important;
+	font-size:  1.2em;
+	padding: 0;
+	margin: 0;
+}
+
+.moduleCM1 .linkList ul li {
+	list-style: url(../images/arrowCM33List.gif) outside;
+}
+
+.moduleCM1 .linkList ul li:hover {
+	color: #2971a7;
 }
 
 .moduleCM1 .linkList ul li a {
-	display: inline;
-	width: 100%;
-	font-weight: normal;
-	font-size: 12px;
-	line-height: 2.0em;
+	color: #555;
+	display: block;
+	padding: 0 0 1.0em 0;
+	color: #2971a7;
+	font-size: 1.2em;
 }
 
 .moduleCM2-1 {
@@ -1508,19 +1533,29 @@
 }
 
 #moduleCM10 .linkList ul {
-	margin: 0;
 	padding: 0;
+	margin: 0;
 	margin-left: 2.0em;
-	margin-top: 0.5em;
+	margin-top: 1.0em;
+	
+}
+
+#moduleCM10 .linkList ul li {
 	list-style: url(../images/arrowCM33List.gif) outside;
 }
 
-#moduleCM10 .linkList ul li a {
+#moduleCM10 .linkList ul li:hover {
 	color: #2971a7;
+}
+
+#moduleCM10 .linkList ul li a {
+	color: #555;
 	display: block;
-	line-height: 2.0em;
+	padding: 0 0 1.0em 0;
+	color: #2971a7;
 	font-size: 1.2em;
 }
+
 
 #moduleCM11 {
 	font-size: 1.1em;
@@ -2731,6 +2766,7 @@
 
 .moduleGM1-1 ul {
 	list-style: none;
+	list-style-position: outside !important;
 	margin: 0;
 	padding: 0;
 }
