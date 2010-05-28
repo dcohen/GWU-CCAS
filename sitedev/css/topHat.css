@@ -1,3 +1,8 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
 #container #header {
 	width: 100%;
 	background-color: #fff;
@@ -177,6 +182,13 @@
 	margin-top: 11px;
 }
 
+#container #header #topHat #search fieldset,
+#container #header #topHat #search form {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
 #container #header #topHat #search div.inputHolder {
 	float: left;
 	background-color: #085584;
@@ -229,7 +241,10 @@
 
 
 
-
+#container #header #topHat #mainMenu ul.parent {
+	margin: 0;
+	padding: 0;
+}
 
 
 
@@ -251,6 +266,10 @@
 #container #header #topHat #mainMenu ul.parent li.first a {
 	background-image: none;
 	padding: 0 1.0em;
+}
+
+#container #header #topHat #mainMenu ul.parent li.first a:hover {
+	background-image: none;
 }
 
 #container #header #topHat #mainMenu ul.parent li a:visited {
