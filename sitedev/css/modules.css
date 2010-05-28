@@ -281,6 +281,15 @@
 	height: 39px;
 	width: 39px;
 }
+
+#moduleMM2-2 .videoThumbOverlay {
+	display: none;
+}
+
+#moduleMM2-2:hover .videoThumbOverlay {
+	display: block;
+}
+
 #moduleMM3 {
 	margin-top: 3.0em;
 	position: relative;
