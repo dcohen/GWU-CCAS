@@ -159,6 +159,7 @@ body {
 	color: #fff;
 	width: 100%;
 	list-style: none;
+	list-style-position: outside;
 	margin-left: 0;
 	padding-left: 0;
 }
