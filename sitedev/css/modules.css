@@ -1891,22 +1891,20 @@
 }
 
 #moduleCM15 {
-	height: 16px;
-	width: 70px;
 	float: right;
-	margin-bottom: -2.0em;
+	margin-bottom: -3.0em;
 }
 
 #moduleCM15 a.addThis {
-	height: 0;
+	height: 16px;
+	width: 70px;
+	float: right;
+	display: block;
 }
 
-#moduleCM15.solo a.addThis {
-	margin-top: 0;
-}
-
-#moduleCM15.solo a.addThis img {
-	margin-bottom: 0;
+#moduleCM15 img {
+	margin: 0;
+	border: 0;
 }
 
 #moduleCM16-1 .linkList {

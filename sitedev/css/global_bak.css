@@ -692,15 +692,15 @@ body {
 
 #container #contentWrapperShadow #contentWrapper #hero #heroImage #heroPlayer ul li a {
 	display: block;	
-	color: #2a72a7;
+	color: #2971A7;
 	padding: 0 0.6em;
 	cursor: pointer;
 }
 
 #container #contentWrapperShadow #contentWrapper #hero #heroImage #heroPlayer ul li a#playHeroPlayer,
 #container #contentWrapperShadow #contentWrapper #hero #heroImage #heroPlayer ul li a#pauseHeroPlayer {
-	border-right: 1px solid #2a72a7;
-	border-left: 1px solid #2a72a7;
+	border-right: 1px solid #2971A7;
+	border-left: 1px solid #2971A7;
 	text-indent: -9999em;
 	background-image: url(../images/bgHeroPlayerPlay.png);
 	width: 9px;
