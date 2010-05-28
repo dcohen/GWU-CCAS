@@ -309,6 +309,14 @@
 	width: 39px;
 }
 
+#moduleMM3 .videoThumbOverlay {
+	display: none;
+}
+
+#moduleMM3:hover .videoThumbOverlay {
+	display: block;
+}
+
 #moduleMM4 {
 	margin-top: 3.0em;
 }
