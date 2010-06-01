@@ -162,6 +162,11 @@ body {
 	list-style-position: outside;
 	margin-left: 0;
 	padding-left: 0;
+	height: 133px;
+}
+
+#container #header #topHat #mainMenu ul.parent li ul.child li ul.grandChild:hover {
+	background-color: #d8e6f0;
 }
 
 #container #header #topHat #mainMenu ul.parent li ul.child li ul.grandChild li {
@@ -171,6 +176,7 @@ body {
 	color: #073f5e;
 	border-top: 1px solid transparent;
 	line-height: 10px;
+	height: auto;
 }
 
 #container #header #topHat #mainMenu ul.parent li ul.child li ul.grandChild li a {
