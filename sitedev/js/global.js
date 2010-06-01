@@ -444,6 +444,10 @@ $(document).ready(function()
 	            $slider.append(repeat('<li class="empty" />', visible - ($items.length % visible)));
 	            $items = $slider.find('> li');
 	        }
+		
+	        if (($items.length / visible) > 1) {
+				$wrapper.after('<a class="arrow back">&laquo;</a><a class="arrow forward">&raquo;</a><div class="clear"></div>');
+			}
 
 	        $items.filter(':first').before($items.slice(- visible).clone().addClass('cloned'));
 	        $items.filter(':last').after($items.slice(0, visible).clone().addClass('cloned'));
@@ -472,8 +476,6 @@ $(document).ready(function()
 
 	            return false;
 	        }
-
-	        $wrapper.after('<a class="arrow back">&laquo;</a><a class="arrow forward">&raquo;</a><div class="clear"></div>');
 
 	        $('a.back', this).click(function () {
 	            return gotoPage(currentPage - 1);                
