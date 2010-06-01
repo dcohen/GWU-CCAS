@@ -2219,6 +2219,10 @@
 	text-align: right;
 }
 
+#moduleCM23 a.more {
+	margin-bottom: 0 !important;
+}
+
 #moduleCM24 {
 	margin-top: 3.0em;
 	color: #555;
