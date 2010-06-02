@@ -445,7 +445,9 @@ $(document).ready(function()
 	            $items = $slider.find('> li');
 	        }
 		
-	        if (($items.length / visible) > 1) {
+// Find number of pages (ie. groups of three items) before adding cloned empty divs; append arrows to carousel if more than one page already exists //
+
+	        if (pages > 1) {
 				$wrapper.after('<a class="arrow back">&laquo;</a><a class="arrow forward">&raquo;</a><div class="clear"></div>');
 			}
 
