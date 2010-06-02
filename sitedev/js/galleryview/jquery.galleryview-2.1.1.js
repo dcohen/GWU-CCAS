@@ -428,11 +428,11 @@ var window_loaded = false;
 					'display':'none'
 				});
 				switch(opts.filmstrip_position) {
-					case 'top': $(this).css({
+					case 'margin-top': $(this).css({
 									'top':strip_height+Math.max(gallery_padding,filmstrip_margin)+'px',
 									'left':gallery_padding+'px'
 								}); break;
-					case 'left': $(this).css({
+					case 'margin-left': $(this).css({
 								 	'top':gallery_padding+'px',
 									'left':strip_width+Math.max(gallery_padding,filmstrip_margin)+'px'
 								 }); break;
