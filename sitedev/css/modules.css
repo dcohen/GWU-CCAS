@@ -381,6 +381,9 @@
 }
 
 /* Side Navigation Modules */
+#moduleSN1 {
+	margin-bottom: 3.0em;
+}
 
 #moduleSN1 ul {
 	margin: 0;
