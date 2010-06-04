@@ -18,7 +18,7 @@
 #moduleMM1 .wrapperMM1 {
 	margin-left: 1.0em;
 	width: 435px;
-	height: 161px;
+	height: 180px;
 	overflow: auto;
 	position: relative;
 	background-image: url(../images/bgHorizontalCarouselOff.gif);
@@ -39,7 +39,7 @@
   	display:block;
   	float:left;
 	width: 145px;
-	height: 161px;
+	height: 180px;
 	margin: 0;
 }
 
@@ -97,7 +97,6 @@
 }
 
 #moduleMM1 ul li.carouselItem span {
-	font-size: 1.1em;
 	line-height: 1.3em;
 }
 
@@ -1414,11 +1413,10 @@
 }
 
 #moduleCM9 ul li.carouselItem img {
-	margin-bottom: 1.0em;
+	margin-bottom: 10px;
 }
 
 #moduleCM9 ul li.carouselItem span {
-	font-size: 1.1em;
 	line-height: 1.3em;
 }
 
