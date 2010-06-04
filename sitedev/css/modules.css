@@ -388,12 +388,17 @@
 	list-style: none;
 }
 
+#moduleSN1 ul li {
+	background-image: url(../images/bgSN1Parent.gif);
+	background-position: 0 bottom;
+	background-repeat: repeat-x;
+	display: inline;
+}
+
 #moduleSN1 ul li a {
 	text-transform: uppercase;
-	
 	text-decoration: none;
 	display: block;
-	
 	line-height: 16px;
 	background-image: url(../images/bgSN1Parent.gif);
 	background-position: 0 bottom;
@@ -402,7 +407,6 @@
 	color: #555;
 	padding: 3px 0 3px 1.0em;
 	cursor: pointer;
-	
 	border-top: 1px solid #e0e0e0;
 }
 
@@ -475,6 +479,8 @@
 
 #moduleSN1 ul li ul li ul li a:hover {
 	color: #555;
+	background-color: #ececec;	
+	
 }
 
 #moduleSN1 ul li ul li ul li ul li {
@@ -508,21 +514,25 @@
 	list-style: none;
 }
 
-#moduleSN2 ul li a {
-	text-transform: uppercase;
-	
-	text-decoration: none;
-	display: block;
-	
-	line-height: 16px;
+#moduleSN2 ul li {
 	background-image: url(../images/bgSN1Parent.gif);
 	background-position: 0 bottom;
 	background-repeat: repeat-x;
+	display: inline;
+}
+
+#moduleSN2 ul li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	display: block;
+	background-image: url(../images/bgSN1Parent.gif);
+	background-position: 0 bottom;
+	background-repeat: repeat-x;
+	line-height: 16px;
 	font-size: 1.1em;
 	color: #555;
 	padding: 3px 0 3px 1.0em;
 	cursor: pointer;
-	
 	border-top: 1px solid #e0e0e0;
 }
 
@@ -579,7 +589,6 @@
 
 #moduleSN2 ul li ul li a:hover {
 	background-image: none;
-	background-color: #ececec;	
 	color: #555;
 }
 
