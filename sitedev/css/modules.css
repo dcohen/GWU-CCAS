@@ -2859,6 +2859,8 @@
 	padding: 4px;
 	margin-right: 1.0em;
 	font-family: Arial;
+	width: 230px;
+	float: left;
 }
 
 #moduleSR1 form fieldset select {
@@ -2866,6 +2868,7 @@
 	padding: 4px;
 	margin-right: 1.0em;
 	font-family: Arial;
+	float: left;
 }
 
 #moduleSR1 form fieldset button {
@@ -2876,7 +2879,7 @@
 	border: 0 none;
 	float: right;
 	cursor: pointer;
-	margin-top: 5px;
+	margin-top: 0px;
 }
 
 #moduleSR1 .line {
