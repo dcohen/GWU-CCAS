@@ -774,34 +774,11 @@ p.button {
 	margin-bottom: 0;
 }
 
-/* ADVERTISEMENTS */
-
-#container #contentWrapperShadow #contentWrapper #contentMain #message404 {
-	margin-top: 2.0em;
-}
-
-#container #contentWrapperShadow #contentWrapper #contentMain #message404 a {
-	text-decoration: underline;
-}
-
-#container #contentWrapperShadow #contentWrapper #contentMain #message404 .message404text {
-	font-size: 1.2em;
-	line-height: 1.3em;
-}
-
-#container #contentWrapperShadow #contentWrapper #contentMain #message404 .message404text ul li {
-	list-style-type: disc;
-	list-style-position: outside;
-	margin: 0 0 0 25px;
-}
-
 #container #contentWrapperShadow #contentWrapper #footer.forceBottom {
 	width: 940px;
 	position: absolute;
 	bottom: 0;
 }
-
-/* /ADVERTISEMENTS */
 
 #container #contentWrapperShadow #contentWrapper #contentNav, 
 #container #contentWrapperShadow #contentWrapper #contentMain,

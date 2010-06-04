@@ -2414,6 +2414,10 @@
 	line-height: 1.3em;
 }
 
+#moduleCM31 {
+	margin-bottom: 3.0em;
+}
+
 #moduleCM31 div.letter {
 	margin: 1.0em 0;
 }
@@ -2486,6 +2490,10 @@
 	padding: 0 2px 0 6px;
 	text-decoration: underline;
 	color: #fff;
+}
+
+#moduleCM32 {
+	margin-bottom: 3.0em;
 }
 
 #moduleCM32 h3 {
@@ -2996,4 +3004,23 @@
 	background-image: url(../images/bgOrnamentHR.gif);
 	height: 17px;
 	width: 221px;
+}
+
+#message404 {
+	margin-bottom: 3.0em;
+}
+
+#message404 a {
+	text-decoration: underline;
+}
+
+#message404 .message404text {
+	font-size: 1.2em;
+	line-height: 1.3em;
+}
+
+#message404 .message404text ul li {
+	list-style-type: disc;
+	list-style-position: outside;
+	margin: 0 0 0 25px;
 }
