@@ -165,14 +165,19 @@ p.button {
 	display: block;
 	background-image: url(../images/buttonApplyCM33-2.gif);
 	background-repeat: no-repeat;
-	height: 27px;
+	height: 14px;
+	padding: 6px 0 7px 0;
 	width: 220px;
-	line-height: 27px;
 	text-align: center;
 	font-size: 1.0em;
 	text-transform: uppercase;
 	font-weight: bold;
-	color: #fff;	
+	color: #fff !important;	
+	font-size: 14px;
+}
+
+p.button a {
+	color: #fff !important;
 }
 
 
