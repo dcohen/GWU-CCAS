@@ -126,7 +126,7 @@ $(document).ready(function()
 			$(this).attr('action','http://www.law.gwu.edu/Search/Default.aspx?k='+$(this).find('#searchInput').val());
 	});
 	
-	$('#myselectbox').selectbox({debug: true});
+	$('#myselectbox').selectbox();
 	
 	//close button in mainMenu
 	$('#mainMenu ul.parent li ul.child li.close a').live('click',
