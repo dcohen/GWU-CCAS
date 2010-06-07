@@ -3337,6 +3337,10 @@
 		margin-bottom: 1.0em;
 	}
 	
+	#moduleCM18 .moduleItem .itemImage img {
+		margin-bottom: 0;
+	}
+	
 	#moduleCM18 .moduleItem .itemDescription p {
 		margin-bottom: 1.0em;
 		line-height: 1.3em;
