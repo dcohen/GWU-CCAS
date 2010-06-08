@@ -1,0 +1,5 @@
+Sample dotfiles to make using the GWU-CCAS repo easier.
+
+Mainly, I just manage file exclude rules so I can keep a local devtree that's roughly identical to sitedev without cluttering up Github with non-CSS and JS stuff. You can easily edit this to include or exclude other files, patterns, etc.
+
+The default location for this exclude file is usually something like /path/to/GWU-CCAS/.git/info/exclude
