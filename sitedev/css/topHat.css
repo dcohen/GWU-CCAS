@@ -27,7 +27,7 @@ body {
 	text-indent: -9999em;
 	width: 367px;
 	height: 47px;	
-	background-image: url(../images/logoGWU.gif);
+	background-image: url(../images/spriteTopHat.gif);
 	background-repeat: no-repeat;
 }
 
@@ -93,10 +93,11 @@ body {
 }
 
 #container #header #topHat #mainMenu ul.parent li ul.child li.close a {
-	background-image: url(../images/iconGlobalNavClose.png);
+	background-image: url(../images/spriteTopHat.gif);
+	background-position: -134px -48px;
 	display: block;
 	height: 16px;
-	width: 16px;
+	width: 14px;
 	text-indent: -9999em;
 	padding: 0;
 	margin: 0;
@@ -185,7 +186,7 @@ body {
 	line-height: 1.0em;
 	font-weight: normal;
 	background-image: url(../images/bgGrandChildMenuDotOff.gif);
-	background-position: 11px top;
+	background-position: 11px top;	
 	background-repeat: no-repeat;
 }
 
@@ -242,7 +243,8 @@ body {
 	text-indent: -9999em;
 	height: 21px;
 	width: 21px;
-	background-image: url(../images/iconSearch.gif);
+	background-image: url(../images/spriteTopHat.gif);
+	background-position: -133px -65px;
 	margin-left: 0.5em;
 	cursor: pointer;
 	float: right;

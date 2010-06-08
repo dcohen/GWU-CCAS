@@ -291,13 +291,8 @@
 	}
 		
 	#container #contentWrapperShadow #contentWrapper #alert.alertRed {
-		background-image: url(../images/bgAlertRed.gif);
-	}
-	#container #contentWrapperShadow #contentWrapper #alert.alertYellow {
-		background-image: url(../images/bgAlertYellow.gif);
-	}
-	#container #contentWrapperShadow #contentWrapper #alert.alertGreen {
-		background-image: url(../images/bgAlertGreen.gif);
+		background-image: url(../images/spriteTopHat.gif);
+		background-position: -297px -48px;
 	}
 	
 	#container #contentWrapperShadow #contentWrapper #alert p {
@@ -320,16 +315,12 @@
 	}
 	
 	#container #contentWrapperShadow #contentWrapper #alert a.alertMore.alertRed {
-		background-image: url(../images/alertButtonMoreInfoRed.gif);
-	}
-	#container #contentWrapperShadow #contentWrapper #alert a.alertMore.alertYellow {
-		background-image: url(../images/alertButtonMoreInfoYellow.gif);
-	}
-	#container #contentWrapperShadow #contentWrapper #alert a.alertMore.alertGreen {
-		background-image: url(../images/alertButtonMoreInfoGreen.gif);
+		background-image: url(../images/spriteTopHat.gif);
+		background-position: 0 -69px;
 	}
 	#container #contentWrapperShadow #contentWrapper #alert a.alertMore:hover {
-		background-image: url(../images/alertButtonMoreInfoBlue.gif);
+		background-image: url(../images/spriteTopHat.gif);
+		background-position: 0 -48px;
 	}
 	
 	#container #contentWrapperShadow #contentWrapper #hero {
@@ -1291,7 +1282,7 @@
 	}
 	
 	#jsVideoPlayerClose {
-		background: url(../images/gwuSprite.png) no-repeat -579px -210px;
+		background: url(../images/gwuspriteTopHat.png) no-repeat -579px -210px;
 		_background: url(../images/bgPopupClose.gif) no-repeat top left;
 		cursor: pointer;
 		display: none;
@@ -1970,23 +1961,7 @@
 		margin-bottom: 3.0em;
 	}
 	
-	.moduleCM2-2 {
-		margin-bottom: 3.0em;
-	}
-	
-	.moduleCM2-3 {
-		margin-bottom: 3.0em;
-	}
-	
 	.moduleCM2-4 {
-		margin-bottom: 3.0em;
-	}
-	
-	.moduleCM2-5 {
-		margin-bottom: 3.0em;
-	}
-	
-	.moduleCM2-6 {
 		margin-bottom: 3.0em;
 	}
 	
