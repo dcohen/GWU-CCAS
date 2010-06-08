@@ -2974,7 +2974,7 @@
 	
 	.moduleCM13 {
 		width: 220px;
-		background-image: url(../images/bgCM13.png);
+		background-image: url(../images/bgCM13.gif);
 		margin-bottom: 3.0em;
 		color: #fff;
 	}
@@ -3012,7 +3012,7 @@
 		display: block;
 		width: 190px;
 		height: 29px;
-		background-image: url(../images/bgCM13_CTA.png);
+		background-image: url(../images/bgCM13_CTA.gif);
 		color: #b8dfe6 !important;
 		font-family: Georgia;
 		font-style: italic;
@@ -3024,7 +3024,7 @@
 	.moduleCM13-1 {
 		width: 460px;
 		background-color: #2971a7;
-		background-image: url(../images/bgCM13-1.png);
+		background-image: url(../images/bgCM13-1.gif);
 		background-position: bottom;
 		background-repeat: no-repeat;
 		margin-bottom: 3.0em;
@@ -3047,7 +3047,7 @@
 	}
 	
 	.moduleCM13-1 h2 {
-		background-image: url(../images/bgCM13-1_Top.png);
+		background-image: url(../images/bgCM13-1_Top.gif);
 		background-repeat: no-repeat;
 		font-size: 1.8em;
 		font-weight: bold;
@@ -3065,7 +3065,7 @@
 	.moduleCM13-2 {
 		width: 700px;
 		height: 120px;
-		background-image: url(../images/bgCM13-2.png);
+		background-image: url(../images/bgCM13-2.gif);
 		background-position: right;
 		background-repeat: no-repeat;
 		margin-bottom: 3.0em;
