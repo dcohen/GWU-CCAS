@@ -750,7 +750,7 @@ $(document).ready(function()
 	    }
 
 	    return this.each(function () {
-	        var $wrapper = $('div.wrapperCM9, div.wrapperMM1', this).css('overflow', 'hidden'),
+	        var $wrapper = $('div.wrapperCM9, div.wrapperCM9-2, div.wrapperCM9-3, div.wrapperMM1', this).css('overflow', 'hidden'),
 	            $slider = $wrapper.find('> ul'),
 	            $items = $slider.find('> li'),
 	            $single = $items.filter(':first'),
@@ -822,6 +822,22 @@ $(document).ready(function()
 				$('#moduleCM9 div.carouselDescription:visible').hide();
 				$('#moduleCM9 div#carouselDescription'+$(this).attr('id').replace(/\D/g,'')+'').fadeIn();
 			});
+			
+			$('#moduleCM9-2 li.carouselItem').live('click',
+				function() {
+				$(this).siblings().removeClass('current');
+				$(this).addClass('current');
+				$('#moduleCM9-2 div.carouselDescription:visible').hide();
+				$('#moduleCM9-2 div#carouselDescription'+$(this).attr('id').replace(/\D/g,'')+'').fadeIn();
+			});
+			
+			$('#moduleCM9-3 li.carouselItem').live('click',
+				function() {
+				$(this).siblings().removeClass('current');
+				$(this).addClass('current');
+				$('#moduleCM9-3 div.carouselDescription:visible').hide();
+				$('#moduleCM9-3 div#carouselDescription'+$(this).attr('id').replace(/\D/g,'')+'').fadeIn();
+			});
 
 	        $(this).bind('goto', function (event, page) {
 	            gotoPage(page);
@@ -831,7 +847,7 @@ $(document).ready(function()
 
 
 	$(document).ready(function () {
-	  $('#moduleCM9, #moduleMM1').horizontalCarousel();
+	  $('#moduleCM9, #moduleCM9-2, #moduleCM9-3, #moduleMM1').horizontalCarousel();
 	});
 	
 	$('select#exploreList').change(
