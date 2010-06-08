@@ -12,5 +12,6 @@
 *.zip
 releases
 images
-*-min.css
-*-min.js
+css/global-min.css
+css/plugins-min.css
+js/global-min.js
