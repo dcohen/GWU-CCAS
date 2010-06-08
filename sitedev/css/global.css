@@ -266,7 +266,7 @@
 	}
 	
 	#container #contentWrapperShadow {
-		background-image: url(../images/bgShadow.png);
+		background-image: url(../images/bgShadow.gif);
 		background-repeat: repeat-x;
 		background-position: top;
 		width: 100%;
@@ -291,13 +291,13 @@
 	}
 		
 	#container #contentWrapperShadow #contentWrapper #alert.alertRed {
-		background-image: url(../images/bgAlertRed.png);
+		background-image: url(../images/bgAlertRed.gif);
 	}
 	#container #contentWrapperShadow #contentWrapper #alert.alertYellow {
-		background-image: url(../images/bgAlertYellow.png);
+		background-image: url(../images/bgAlertYellow.gif);
 	}
 	#container #contentWrapperShadow #contentWrapper #alert.alertGreen {
-		background-image: url(../images/bgAlertGreen.png);
+		background-image: url(../images/bgAlertGreen.gif);
 	}
 	
 	#container #contentWrapperShadow #contentWrapper #alert p {
@@ -320,16 +320,16 @@
 	}
 	
 	#container #contentWrapperShadow #contentWrapper #alert a.alertMore.alertRed {
-		background-image: url(../images/alertButtonMoreInfoRed.png);
+		background-image: url(../images/alertButtonMoreInfoRed.gif);
 	}
 	#container #contentWrapperShadow #contentWrapper #alert a.alertMore.alertYellow {
-		background-image: url(../images/alertButtonMoreInfoYellow.png);
+		background-image: url(../images/alertButtonMoreInfoYellow.gif);
 	}
 	#container #contentWrapperShadow #contentWrapper #alert a.alertMore.alertGreen {
-		background-image: url(../images/alertButtonMoreInfoGreen.png);
+		background-image: url(../images/alertButtonMoreInfoGreen.gif);
 	}
 	#container #contentWrapperShadow #contentWrapper #alert a.alertMore:hover {
-		background-image: url(../images/alertButtonMoreInfoBlue.png);
+		background-image: url(../images/alertButtonMoreInfoBlue.gif);
 	}
 	
 	#container #contentWrapperShadow #contentWrapper #hero {
@@ -1177,7 +1177,7 @@
 		width: 40px;
 		color: #fff;
 		cursor: pointer;	
-		background-color: #03314b;
+		background-color: #b2a38f;
 		height: 315px;
 		background-repeat: no-repeat;
 		background-position: 15px;
