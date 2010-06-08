@@ -1322,7 +1322,7 @@
 	#moduleMM1 .wrapperMM1 {
 		margin-left: 1.0em;
 		width: 435px;
-		height: 180px;
+		height: 161px;
 		overflow: auto;
 		position: relative;
 		background-image: url(../images/bgHorizontalCarouselOff.gif);
@@ -1343,7 +1343,7 @@
 	  	display:block;
 	  	float:left;
 		width: 145px;
-		height: 180px;
+		height: 161px;
 		margin: 0;
 	}
 	
@@ -1391,12 +1391,12 @@
 	}
 	
 	#moduleMM1 ul li.carouselItem.first {
-		background-image: url(../images/bgHorizontalCarouselOffFirstVid.gif);
+		background-image: url(../images/bgHorizontalCarouselOffFirst.gif);
 		background-position: left;
 	}
 	
 	#moduleMM1 ul li.carouselItem.current {
-		background-image: url(../images/bgHorizontalCarouselShadowVid.gif);
+		background-image: url(../images/bgHorizontalCarouselShadowPicLandscape.gif);
 		opacity: 1.0;
 	}
 	
