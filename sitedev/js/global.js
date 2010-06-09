@@ -1,11 +1,7 @@
-var GWU = {};
-GWU.vars = {
-		popupVideoHTML: '<div id="jsVideoPlayer" class="jsVideoPlayerLoader"><div id="jsVideoPlayerClose"></div></div><div id="jsVideoPlayerScreen"></div>'
-	   };
-
 // These variables will need to be set by the CMS
 var currentHeroPlayerImage = 1;
 var maxHeroPlayerImages = 8;
+//
 
 var slideID;
 
@@ -60,38 +56,6 @@ function pauseSlideShow() {
 
 /*
  * jQuery selectbox plugin
- *
- * Copyright (c) 2007 Sadri Sahraoui (brainfault.com)
- * Licensed under the GPL license and MIT:
- *   http://www.opensource.org/licenses/GPL-license.php
- *   http://www.opensource.org/licenses/mit-license.php
- *
- * The code is inspired from Autocomplete plugin (http://www.dyve.net/jquery/?autocomplete)
- *
- * Revision: $Id$
- * Version: 1.2
- * 
- * Changelog :
- *  Version 1.2 By Guillaume Vergnolle (web-opensource.com)
- *  - Add optgroup support
- *  - possibility to choose between span or input as replacement of the select box
- *  - support for jquery change event
- *  - add a max height option for drop down list
- *  Version 1.1 
- *  - Fix IE bug
- *  Version 1.0
- *  - Support jQuery noConflict option
- *  - Add callback for onChange event, thanks to Jason
- *  - Fix IE8 support
- *  - Fix auto width support
- *  - Fix focus on firefox dont show the carret
- *  Version 0.6
- *  - Fix IE scrolling problem
- *  Version 0.5 
- *  - separate css style for current selected element and hover element which solve the highlight issue 
- *  Version 0.4
- *  - Fix width when the select is in a hidden div   @Pawel Maziarz
- *  - Add a unique id for generated li to avoid conflict with other selects and empty values @Pawel Maziarz
  */
 jQuery.fn.extend({
 	selectbox: function(options) {
@@ -375,17 +339,11 @@ jQuery.SelectBox = function(selectobj, options) {
 		return ul;
 	}
 	
-	
-	
 };
-
-
 
 $(document).ready(function()
 {
-	
-	
-	// FancyBox Setup
+// FancyBox Setup
 	/* This is basic - uses default settings */
 
 	/* Using custom settings */
@@ -421,13 +379,11 @@ $(document).ready(function()
 	});
 	/* Apply fancybox to multiple items */
 
-	// END: FancyBox
+// END: FancyBox
 	
-	/* TOP HAT NECESSITIES BEGIN */
+/* TOP HAT NECESSITIES BEGIN */
 	
-	var searchValue;
-	
-	
+	var searchValue;	
 	
 	$('#search input').focus(
 		function(){
@@ -526,8 +482,7 @@ $(document).ready(function()
 						
 	});
 	
-	/* TOP HAT NECESSITIES END */
-	
+/* TOP HAT NECESSITIES END */	
 	
 	$('#heroImage #heroPlayer li a').live('click',								
 		function() {	
@@ -584,31 +539,7 @@ $(document).ready(function()
 					pauseSlideShow();
 				}
 			}							
-	});
-	
-	/*$('#moduleSN1 ul li a').live('click',
-		function() {
-			if($(this).parent().parent().parent().attr('id') == 'moduleSN1') {
-				$('#moduleSN1 ul li a').removeClass('current');
-			}
-			$(this).addClass('current');
-			$(this).parent().siblings().children().siblings('ul').hide('slow');
-			$(this).next().toggle('slow');
-			
-	});
-	
-	$('#moduleSN2 ul li a').live('click',
-		function() {
-			if($(this).parent().parent().parent().attr('id') == 'moduleSN2') {
-				$('#moduleSN2 ul li a').removeClass('current');
-			}
-			$(this).addClass('current');
-			$(this).parent().siblings().children().siblings('ul').hide('slow');
-			$(this).next().toggle('slow');
-			
-	});
-	*/
-	
+	});	
 	
 	//CM32
 	$('#moduleCM32 div.dateNav ul li a').live('click',
@@ -618,8 +549,6 @@ $(document).ready(function()
 		$('#moduleCM32 div.results').fadeOut();
 		$('#moduleCM32 div.year'+$(this).text()+'').fadeIn();		
 	});
-	
-	
 	
 	$('.spotlightCarousel a').live('click',
 		function() {					
@@ -644,9 +573,6 @@ $(document).ready(function()
 	$('#moduleCM3 div.videoThumb, #moduleCM3-2 div.videoCarousel').live('click',								
 		function() {	
 		if($(this).hasClass('current')){
-		//Lightbox Popup
-		// media links
-		    //$('a.media').click(function(){
 		    		    
 			if(($(this).find('a.media')).length>0){		    
 			$(this).blur();
@@ -765,7 +691,7 @@ $(document).ready(function()
 	            $items = $slider.find('> li');
 	        }
 		
-// Find number of pages (ie. groups of three items) before adding cloned empty divs; append arrows to carousel if more than one page already exists //
+			// Find number of pages (ie. groups of three items) before adding cloned empty divs; append arrows to carousel if more than one page already exists //
 
 	        if (pages > 1) {
 				$wrapper.after('<a class="arrow back">&laquo;</a><a class="arrow forward">&raquo;</a><div class="clear"></div>');
@@ -855,24 +781,13 @@ $(document).ready(function()
 		$('#moduleCM10 ul:visible').hide();
 		$('#moduleCM10 ul[id=linkList'+$(this).attr('value')+']').show();
 	});
-	
-		
-	
-	
+
 	//ACCORDIAN CALL
 	$(function(){
 		$(".heroSlider").heroSlider();
 	});
-	
-	
-	
-	
 
-	
 });
-
-
-
 
 // HORIZONTAL ACCORDING
 
