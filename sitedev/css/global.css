@@ -2572,6 +2572,14 @@
 		margin-bottom: 3.0em;
 	}
 	
+	#moduleCM7-1 h2 {
+		margin-bottom: 0em !important;
+	}
+	
+	#moduleCM7-1 div.hr.small {
+		margin-bottom: 1.5em !important;
+	}
+	
 	#moduleCM7-1 .visualFeature {
 		float: left; 
 		width: 150px;
