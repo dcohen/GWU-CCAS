@@ -1048,6 +1048,10 @@
 		padding: 0 0.7em;
 	}
 	
+	#container #contentWrapperShadow #contentWrapper #footer #footerParentMenu h2 a:hover {
+		text-decoration: none;
+	}
+	
 	#container #contentWrapperShadow #contentWrapper #footer #footerParentMenu ul {
 		float: right;
 		font-size: 1.1em;
