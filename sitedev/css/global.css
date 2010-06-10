@@ -3539,6 +3539,15 @@
 		margin-bottom: 3.0em;
 	}
 	
+	#moduleCM16-2 h2 {
+		margin-bottom: 0 !important;
+	}
+	
+	#moduleCM16-2 div.hr.small {
+		margin-top: 0.5em !important;
+		margin-bottom: 0 !important;
+	}
+	
 	#moduleCM16-2 .linkList {
 		margin-bottom: 3.0em;
 	}
