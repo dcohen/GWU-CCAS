@@ -944,7 +944,7 @@
 		text-transform: uppercase;
 		font-size: 1.4em;
 		font-family: Times;
-		
+		margin-left: 0.7em;
 		margin-bottom: 1.0em;
 		font-weight: normal;
 	}
@@ -969,6 +969,7 @@
 	#container #contentWrapperShadow #contentWrapper #footer #footerLeft p#address {
 		font-size: 1.2em;
 		line-height: 1.4em;
+		margin-left: 0.7em;
 	}
 	
 	#container #contentWrapperShadow #contentWrapper #footer #footerRight {
@@ -1044,7 +1045,7 @@
 	
 	#container #contentWrapperShadow #contentWrapper #footer #footerParentMenu h2 a {
 		color: #fff;
-		padding: 0 1.0em;
+		padding: 0 0.7em;
 	}
 	
 	#container #contentWrapperShadow #contentWrapper #footer #footerParentMenu ul {
