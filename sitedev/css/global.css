@@ -944,7 +944,7 @@
 		text-transform: uppercase;
 		font-size: 1.4em;
 		font-family: Times;
-		
+		margin-left: 0.7em;
 		margin-bottom: 1.0em;
 		font-weight: normal;
 	}
@@ -969,6 +969,7 @@
 	#container #contentWrapperShadow #contentWrapper #footer #footerLeft p#address {
 		font-size: 1.2em;
 		line-height: 1.4em;
+		margin-left: 0.7em;
 	}
 	
 	#container #contentWrapperShadow #contentWrapper #footer #footerRight {
@@ -1044,7 +1045,11 @@
 	
 	#container #contentWrapperShadow #contentWrapper #footer #footerParentMenu h2 a {
 		color: #fff;
-		padding: 0 1.0em;
+		padding: 0 0.7em;
+	}
+	
+	#container #contentWrapperShadow #contentWrapper #footer #footerParentMenu h2 a:hover {
+		text-decoration: none;
 	}
 	
 	#container #contentWrapperShadow #contentWrapper #footer #footerParentMenu ul {
@@ -2567,6 +2572,14 @@
 		margin-bottom: 3.0em;
 	}
 	
+	#moduleCM7-1 h2 {
+		margin-bottom: 0em !important;
+	}
+	
+	#moduleCM7-1 div.hr.small {
+		margin-bottom: 1.5em !important;
+	}
+	
 	#moduleCM7-1 .visualFeature {
 		float: left; 
 		width: 150px;
@@ -3524,6 +3537,15 @@
 	
 	#moduleCM16-2 {
 		margin-bottom: 3.0em;
+	}
+	
+	#moduleCM16-2 h2 {
+		margin-bottom: 0 !important;
+	}
+	
+	#moduleCM16-2 div.hr.small {
+		margin-top: 0.5em !important;
+		margin-bottom: 0 !important;
 	}
 	
 	#moduleCM16-2 .linkList {
