@@ -32,6 +32,3 @@ $(document).ready(function()
     $('head').prepend('<link rel="stylesheet" type="text/css" href="'+rootLocation+'css/selectbox.css" media="screen" />');
 	$('head').prepend('<link rel="stylesheet" type="text/css" href="'+rootLocation+'css/topHat.css" media="screen" />');
 });
-
-   
-
