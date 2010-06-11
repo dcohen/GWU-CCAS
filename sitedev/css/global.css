@@ -3135,7 +3135,6 @@
 	
 	
 	#moduleCM11 {
-		font-size: 1.1em;
 		margin-bottom: 3.0em;
 	}
 	
@@ -3170,6 +3169,11 @@
 	
 	#moduleCM11 .featureAuthor p {
 		margin: 1.0em 0;
+	}
+	
+	#moduleCM11 .featureAuthor a {
+		display: block;
+		text-align: right;
 	}
 	
 	#moduleCM12 {
@@ -4515,7 +4519,6 @@
 	
 	#moduleMS1 a {
 		color: #2971a7;
-		font-size: 1.1em;
 		line-height: 1.2em;		
 	}
 	
@@ -4553,6 +4556,11 @@
 	
 	#moduleMS1 .featureAuthor p {
 		margin: 1.0em 0;
+	}
+	
+	#moduleMS1 .featureAuthor a {
+		display: block;
+		text-align: right;
 	}
 	
 	#moduleMS1 .socialLinks {
