@@ -3538,7 +3538,7 @@
 	#moduleCM16-2 {
 		margin-bottom: 3.0em;
 	}
-	
+		 
 	#moduleCM16-2 h2 {
 		margin-bottom: 0 !important;
 	}
@@ -3588,6 +3588,11 @@
 	#moduleCM18 .line {
 		margin-bottom: 1.0em !important;
 		clear: both;
+	}
+	
+	#moduleCM18 div.hr {
+		margin-top: 0em !important;
+		margin-bottom: 1.5em !important;
 	}
 	
 	#moduleCM18 .moduleItem div.date {
