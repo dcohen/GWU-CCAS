@@ -3773,11 +3773,26 @@
 	
 	#moduleCM23 h4 {
 		font-weight: bold;
-		font-size: 1.2em;
+		font-size: 1.8em;
 		margin: 1.0em 0;
 	}
 	
+	#moduleCM23 ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		margin-top: -1.0em;
+		margin-bottom: 1.0em;
+		margin-left: 1.0em;
+		list-style: url(../images/arrowCM33List.gif) outside;
+	}
+	
 	#moduleCM23 ul a {
+		line-height: 1.4em;
+		text-decoration: none;
+	}
+	
+	#moduleCM23 ul a:hover {
 		text-decoration: underline;
 	}
 	
@@ -3797,29 +3812,32 @@
 		margin-bottom: 1.0em;
 	}
 	
+	#moduleCM23 .moduleItem .itemImage img {
+		margin-bottom: 0 !important;
+	}
+	
 	#moduleCM23 .moduleItem .linkPrevious {
 		float:left;
+		width:150px;
+	}
+	
+	#moduleCM23 .moduleItem .linkPrevious a.more {
+		text-align: left !important;
 	}
 	
 	#moduleCM23 .moduleItem .linkNext {
 		float:right;
-	}
-	
-	#moduleCM23 .moduleItem .captionPrevious {
-		float:left;
-		margin-top:0.5em;
-		width:150px;
-	}
-	
-	#moduleCM23 .moduleItem .captionNext {
-		float:right;
-		margin-top:0.5em;	
 		width:150px;
 		text-align: right;
 	}
 	
+	#moduleCM23 .moduleItem .linkPrevious a, #moduleCM23 .moduleItem .linkNext a {
+		margin-top: 1.0em;
+	}
+	
 	#moduleCM23 a.more {
-		margin-bottom: 0 !important;
+		margin-bottom: 10px !important;
+		margin-top: 0;
 	}
 	
 	#moduleCM24 {
