@@ -150,7 +150,7 @@ body {
 	background-color: #0e7a9d;
 }
 
-#container #header #topHat #mainMenu ul.parent li ul.child li:hover ul.grandChild li {
+#container #header #topHat #mainMenu ul.parent li ul.child li:hover ul.grandChild {
 	background-color: #d8e6f0;
 	
 }
