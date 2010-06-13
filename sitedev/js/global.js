@@ -144,7 +144,7 @@ jQuery.SelectBox = function(selectobj, options) {
 		} else {
 			// Workaround for ie scroll - thanks to Bernd Matzner
 			if((jQuery.browser.msie && jQuery.browser.version.substr(0,1) < 8) || jQuery.browser.safari){ // check for safari too - workaround for webkit
-				if(document.activeElement.getAttribute('id').indexOf('_container')==-1){
+				if(document.activeElement.getAttribute('id').indexOf('~container')==-1){
 					hideMe();
 				} else {
 					$input.focus();
@@ -172,7 +172,7 @@ jQuery.SelectBox = function(selectobj, options) {
 	function setupContainer(options) {
 		var container = document.createElement("div");
 		$container = jQuery(container);
-		$container.attr('id', elm_id+'_container');
+		$container.attr('id', elm_id+'~container');
 		$container.addClass(options.containerClass);
         	$container.css('display', 'none');
 		
@@ -183,13 +183,13 @@ jQuery.SelectBox = function(selectobj, options) {
 		if(opt.inputType == "span"){
 			var input = document.createElement("span");
 			var $input = jQuery(input);
-			$input.attr("id", elm_id+"_input");
+			$input.attr("id", elm_id+"~input");
 			$input.addClass(options.inputClass);
 			$input.attr("tabIndex", $select.attr("tabindex"));
 		} else {
 			var input = document.createElement("input");
 			var $input = jQuery(input);
-			$input.attr("id", elm_id+"_input");
+			$input.attr("id", elm_id+"~input");
 			$input.attr("type", "text");
 			$input.addClass(options.inputClass);
 			$input.attr("autocomplete", "off");
@@ -236,7 +236,7 @@ jQuery.SelectBox = function(selectobj, options) {
 	
 	function setCurrent() {	
 		var li = jQuery("li."+opt.currentClass, $container).get(0);
-		var ar = (''+li.id).split('_');
+		var ar = (''+li.id).split('~');
 		var el = ar[ar.length-1];
 		if (opt.onChangeCallback){
         		$select.get(0).selectedIndex = $('li', $container).index(li);
@@ -271,13 +271,13 @@ jQuery.SelectBox = function(selectobj, options) {
 			for(x=0;x<select_optgroups.length;x++){
 				select_options = $("#"+select_optgroups[x].id).children('option');
 				var li = document.createElement('li');
-				li.setAttribute('id', parentid + '_' + $(this).val());
+				li.setAttribute('id', parentid + '~' + $(this).val());
 				li.innerHTML = $("#"+select_optgroups[x].id).attr('label');
 				li.className = opt.groupClass;
 				ul.appendChild(li);
 				select_options.each(function() {
 					var li = document.createElement('li');
-					li.setAttribute('id', parentid + '_' + $(this).val());
+					li.setAttribute('id', parentid + '~' + $(this).val());
 					li.innerHTML = $(this).html();
 					if ($(this).is(':selected')) {
 						$input.html($(this).html());
@@ -308,7 +308,7 @@ jQuery.SelectBox = function(selectobj, options) {
 			}
 		} else select_options.each(function() {
 			var li = document.createElement('li');
-			li.setAttribute('id', parentid + '_' + $(this).val());
+			li.setAttribute('id', parentid + '~' + $(this).val());
 			li.innerHTML = $(this).html();
 			if ($(this).is(':selected')) {
 				$input.val($(this).html());
@@ -398,8 +398,12 @@ $(document).ready(function()
 	//Search string replace for LAW
 	//val() == "3" will need to be altered to reflect the correct LAW choice once the search options are real
 	$('div#search form').submit(function(){
-		if($(this).find('select').val() == "3")
-			$(this).attr('action','http://www.law.gwu.edu/Search/Default.aspx?k='+$(this).find('#searchInput').val());
+		if($(this).find('select').val() == "gwlaw"){
+			var k = $(this).find('#searchInput').val();
+			$('#forLaw').val(k);
+			$(this).attr('action','http://www.law.gwu.edu/Search/Default.aspx?k='+k);
+			
+		}
 	});
 	
 	$('#myselectbox').selectbox();
@@ -428,7 +432,7 @@ $(document).ready(function()
 	});	
 	
 	
-	if($('#hero').hasClass('autoPlay'))
+	if($('#heroImage').hasClass('autoPlay'))
 		startSlideShow();
 		
 	$('a.secondaryMenuOne').live('click',								
