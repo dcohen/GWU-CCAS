@@ -77,14 +77,17 @@
 	
 	/* EPHOX CSS */
 	
-	/* These styles are not actually in use:
+	
 	h1 {
-		font-size: 2.2em;
+		font-size: 22px;
 		font-weight: bold;
-		color: #555;
-		font-family: Arial, sans-serif;
+		font-family: Arial;
+		margin-bottom: 0.5em;
+		letter-spacing: -1px;
+		line-height: 1.1em;
 	}
 	
+	/* These styles are not actually in use:
 	h2 {
 		font-size: 1.8em;
 		font-weight: bold;
@@ -933,6 +936,12 @@
 		margin-top: 3em;
 	}
 	
+	#container #contentWrapperShadow #footer .footer940 {
+		width: 940px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
 	#container #contentWrapperShadow #footer ul {
 		list-style: none;
 		margin: 0;
@@ -944,7 +953,7 @@
 		text-transform: uppercase;
 		font-size: 1.4em;
 		font-family: Times;
-		margin-left: 0.7em;
+		margin-left: 0;
 		margin-bottom: 1.0em;
 		font-weight: normal;
 	}
@@ -969,11 +978,12 @@
 	#container #contentWrapperShadow #footer #footerLeft p#address {
 		font-size: 1.2em;
 		line-height: 1.4em;
-		margin-left: 0.7em;
+		margin-left: 0;
+		color: #847d6e;
 	}
 	
 	#container #contentWrapperShadow #footer #footerRight {
-		margin-left: 350px;
+		margin-left: 437px;
 	
 	}
 	
@@ -1002,8 +1012,15 @@
 		float: left;
 	}
 	
+	#container #contentWrapperShadow #footer #footerRight #footerChildMenu ul.local {
+		margin-bottom: 0;
+	}
+	
+	#container #contentWrapperShadow #footer #footerRight #footerChildMenu ul.local li {
+		margin-bottom: 8px;
+	}
+	
 	#container #contentWrapperShadow #footer #footerRight #footerChildMenu ul.social {
-		margin-top: -3.0em;
 		padding-top: 1.0em;
 		border-top: 1px solid #ccc;
 	}
@@ -1045,7 +1062,7 @@
 	
 	#container #contentWrapperShadow #footer #footerParentMenu h2 a {
 		color: #fff;
-		padding: 0 0.7em;
+		padding: 0;
 	}
 	
 	#container #contentWrapperShadow #footer #footerParentMenu h2 a:hover {
@@ -1055,6 +1072,7 @@
 	#container #contentWrapperShadow #footer #footerParentMenu ul {
 		float: right;
 		font-size: 1.1em;
+		
 	}
 	
 	#container #contentWrapperShadow #footer #footerParentMenu ul li {
