@@ -838,7 +838,7 @@
 		margin-bottom: 0;
 	}
 	
-	#container #contentWrapperShadow #contentWrapper #footer.forceBottom {
+	#container #contentWrapperShadow #footer.forceBottom {
 		width: 940px;
 		position: absolute;
 		bottom: 0;
@@ -913,33 +913,33 @@
 		float: left;
 	}
 	
-	#container #contentWrapperShadow #contentWrapper #footer li.facebook a {
+	#container #contentWrapperShadow #footer li.facebook a {
 		background-image: url(../images/iconConnectFacebook.gif);
 	}
 	
-	#container #contentWrapperShadow #contentWrapper #footer li.twitter a {
+	#container #contentWrapperShadow #footer li.twitter a {
 		background-image: url(../images/iconConnectTwitter.gif);
 	}
 	
-	#container #contentWrapperShadow #contentWrapper #footer li.rss a {
+	#container #contentWrapperShadow #footer li.rss a {
 		background-image: url(../images/iconConnectRss.gif);
 	}
 	
-	#container #contentWrapperShadow #contentWrapper #footer li.blogs a {
+	#container #contentWrapperShadow #footer li.blogs a {
 		background-image: url(../images/iconConnectBlogs.gif);
 	}
 	 
-	#container #contentWrapperShadow #contentWrapper #footer {
+	#container #contentWrapperShadow #footer {
 		margin-top: 3em;
 	}
 	
-	#container #contentWrapperShadow #contentWrapper #footer ul {
+	#container #contentWrapperShadow #footer ul {
 		list-style: none;
 		margin: 0;
 		padding: 0;
 	}
 	
-	#container #contentWrapperShadow #contentWrapper #footer h3 {
+	#container #contentWrapperShadow #footer h3 {
 		color: #063956;
 		text-transform: uppercase;
 		font-size: 1.4em;
@@ -949,7 +949,7 @@
 		font-weight: normal;
 	}
 	
-	#container #contentWrapperShadow #contentWrapper #footer div.hr {
+	#container #contentWrapperShadow #footer div.hr {
 		height: 6px;
 		background-color: #4282b1;
 		border-top: 1px solid #1a496b;
@@ -958,62 +958,62 @@
 		margin-bottom: 2.0em;
 	}
 	
-	#container #contentWrapperShadow #contentWrapper #footer div.hr hr {
+	#container #contentWrapperShadow #footer div.hr hr {
 		display: none;
 	}
 	
-	#container #contentWrapperShadow #contentWrapper #footer #footerLeft {
+	#container #contentWrapperShadow #footer #footerLeft {
 		float: left;
 	}
 	
-	#container #contentWrapperShadow #contentWrapper #footer #footerLeft p#address {
+	#container #contentWrapperShadow #footer #footerLeft p#address {
 		font-size: 1.2em;
 		line-height: 1.4em;
 		margin-left: 0.7em;
 	}
 	
-	#container #contentWrapperShadow #contentWrapper #footer #footerRight {
+	#container #contentWrapperShadow #footer #footerRight {
 		margin-left: 350px;
 	
 	}
 	
-	#container #contentWrapperShadow #contentWrapper #footer #footerRight #footerChildMenu {
+	#container #contentWrapperShadow #footer #footerRight #footerChildMenu {
 	}
 	
-	#container #contentWrapperShadow #contentWrapper #footer #footerRight #footerChildMenu a {
+	#container #contentWrapperShadow #footer #footerRight #footerChildMenu a {
 		color: #847d6e;
 	}
 	
-	#container #contentWrapperShadow #contentWrapper #footer #footerRight #footerChildMenu br {
+	#container #contentWrapperShadow #footer #footerRight #footerChildMenu br {
 		clear: both;
 	}
 	
 	
-	#container #contentWrapperShadow #contentWrapper #footer #footerRight #footerChildMenu ul li {
+	#container #contentWrapperShadow #footer #footerRight #footerChildMenu ul li {
 		float: left;
 		padding: 0 1.0em;
 		border-left: 1px solid #ccc;
 		font-size: 1.2em;
 	}
 	
-	#container #contentWrapperShadow #contentWrapper #footer #footerRight #footerChildMenu ul li.first {
+	#container #contentWrapperShadow #footer #footerRight #footerChildMenu ul li.first {
 		padding-left: 0;
 		border: 0;
 		float: left;
 	}
 	
-	#container #contentWrapperShadow #contentWrapper #footer #footerRight #footerChildMenu ul.social {
+	#container #contentWrapperShadow #footer #footerRight #footerChildMenu ul.social {
 		margin-top: -3.0em;
 		padding-top: 1.0em;
 		border-top: 1px solid #ccc;
 	}
 	
-	#container #contentWrapperShadow #contentWrapper #footer #footerRight #footerChildMenu ul.social li {
+	#container #contentWrapperShadow #footer #footerRight #footerChildMenu ul.social li {
 		border: none;
 		font-size: 1.2em;
 	}
 	
-	#container #contentWrapperShadow #contentWrapper #footer #footerRight #footerChildMenu ul.social li a {
+	#container #contentWrapperShadow #footer #footerRight #footerChildMenu ul.social li a {
 		display: block;
 		height: 18px;
 		line-height: 18px;
@@ -1022,19 +1022,19 @@
 		padding-left: 2.0em;
 	}
 	
-	#container #contentWrapperShadow #contentWrapper #footer #footerChildMenu ul.social li.first a {
+	#container #contentWrapperShadow #footer #footerChildMenu ul.social li.first a {
 		padding-left: 0;
 		border: 0;
 	}
 	
-	#container #contentWrapperShadow #contentWrapper #footer #footerParentMenu {
+	#container #contentWrapperShadow #footer #footerParentMenu {
 		margin-top: 3.0em;
 		height: 28px;
 		width: 100%;
 		background-color: #03314b;
 	}
 	
-	#container #contentWrapperShadow #contentWrapper #footer #footerParentMenu h2 {
+	#container #contentWrapperShadow #footer #footerParentMenu h2 {
 		font-size: 1.4em;
 		font-family: Times;
 		line-height: 28px;
@@ -1043,38 +1043,38 @@
 		float: left;
 	}
 	
-	#container #contentWrapperShadow #contentWrapper #footer #footerParentMenu h2 a {
+	#container #contentWrapperShadow #footer #footerParentMenu h2 a {
 		color: #fff;
 		padding: 0 0.7em;
 	}
 	
-	#container #contentWrapperShadow #contentWrapper #footer #footerParentMenu h2 a:hover {
+	#container #contentWrapperShadow #footer #footerParentMenu h2 a:hover {
 		text-decoration: none;
 	}
 	
-	#container #contentWrapperShadow #contentWrapper #footer #footerParentMenu ul {
+	#container #contentWrapperShadow #footer #footerParentMenu ul {
 		float: right;
 		font-size: 1.1em;
 	}
 	
-	#container #contentWrapperShadow #contentWrapper #footer #footerParentMenu ul li {
+	#container #contentWrapperShadow #footer #footerParentMenu ul li {
 		float: left;
 		font-weight: bold;	
 		line-height: 28px;
 	}
 	
-	#container #contentWrapperShadow #contentWrapper #footer #footerParentMenu ul li a {	
+	#container #contentWrapperShadow #footer #footerParentMenu ul li a {	
 		color: #a2d6ff;
 		padding: 0 1.0em;
 		border-left: 1px solid #a2d6ff;
 	}
 	
-	#container #contentWrapperShadow #contentWrapper #footer #footerParentMenu ul li.first a {
+	#container #contentWrapperShadow #footer #footerParentMenu ul li.first a {
 		padding-left: 0;
 		border: 0;
 	}
 	
-	#container #contentWrapperShadow #contentWrapper #footer #footerParentMenu ul li a:hover {
+	#container #contentWrapperShadow #footer #footerParentMenu ul li a:hover {
 		color: #fff;
 	}
 	
