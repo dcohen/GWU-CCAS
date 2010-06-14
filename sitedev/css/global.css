@@ -88,13 +88,13 @@
 	}
 	
 	/* These styles are not actually in use:
+	(h2 follows individual module style)
 	h2 {
 		font-size: 1.8em;
 		font-weight: bold;
 		color: #555;
 		font-family: Arial, sans-serif;
 	}
-	
 	*/
 	
 	h3 {
