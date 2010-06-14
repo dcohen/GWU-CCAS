@@ -2735,10 +2735,12 @@
 	
 	#moduleCM9 ul li.carouselItem p {
 		padding-left: 8px;
+		font-size: 11px;
 	}
 	
 	#moduleCM9 ul li.carouselItem span {
 		line-height: 1.3em;
+		font-size: 12px;
 	}
 	
 	#moduleCM9 ul li.carouselItem:hover {
@@ -2867,12 +2869,15 @@
 	}
 
 	#moduleCM9-2 ul li.carouselItem p {
-		padding-left: 13px;
+		padding-left: 8px;
+		font-size: 11px;
 	}
-
+	
 	#moduleCM9-2 ul li.carouselItem span {
 		line-height: 1.3em;
+		font-size: 12px;
 	}
+
 
 	#moduleCM9-2 ul li.carouselItem:hover {
 		opacity: 1.0;
@@ -3000,12 +3005,15 @@
 	}
 
 	#moduleCM9-3 ul li.carouselItem p {
-		padding-left: 11px;
+		padding-left: 8px;
+		font-size: 11px;
 	}
-
+	
 	#moduleCM9-3 ul li.carouselItem span {
 		line-height: 1.3em;
+		font-size: 12px;
 	}
+
 
 	#moduleCM9-3 ul li.carouselItem:hover {
 		opacity: 1.0;
