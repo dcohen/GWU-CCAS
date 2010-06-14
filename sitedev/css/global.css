@@ -2450,6 +2450,10 @@
 		margin-top: 1.0em;
 	}
 	
+	#moduleCM5 .eventCalendarLink a {
+		line-height: 1.3em;
+	}
+	
 	#moduleCM5 a.subMore {
 		display: block;
 		text-align: right;
