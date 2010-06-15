@@ -2655,7 +2655,11 @@
 	/* TAG CLOUD */
 	
 	#moduleCM8 {
-		margin-bottom: 30px;
+		margin-bottom: 20px;
+	}
+	
+	#moduleCM8 .popularCloud {
+		margin-left: -0.5em;
 	}
 	
 	#moduleCM8 .popularCloud ul {
@@ -2666,35 +2670,33 @@
 		margin: 0;
 	}
 	
-	#moduleCM8 .popularCloud ul.first {
+	#moduleCM8 .popularCloud ul {
 		padding: 0;
 	}
 	
 	#moduleCM8 .popularCloud ul li {
 		
 		background-image: url(../images/bgCM8Dot.gif);
-		background-position: 7px center;
+		background-position: 100% 50%;
 		background-repeat: no-repeat;
 		list-style: none;
 		float: left;
 		margin: 0;
+		padding-right: 10px;
+		margin-bottom: 10px;
 	}
 	
 	#moduleCM8 .popularCloud ul li a {
 		line-height: 16px;
-		padding: 0 0 0 18px;
+		padding-left: 8px;
 		color: #2971a7;
 	}
 	
-	#moduleCM8 .popularCloud ul li.first {
+	#moduleCM8 .popularCloud ul li.last {
 		background-image: none;
 		list-style: none;
 		padding-left: 0;
 		margin-left: 0;
-	}
-	
-	#moduleCM8 .popularCloud ul li.first a {
-		padding-left: 0;
 	}
 	
 	#moduleCM8 .popularCloud ul li.grey a {
