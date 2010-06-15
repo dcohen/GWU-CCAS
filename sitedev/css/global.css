@@ -813,6 +813,8 @@
 	#container #contentWrapperShadow #contentWrapper #contentMain div.hr.small,
 	#container #contentWrapperShadow #contentWrapper #contentRelated div.hr.small {
 		height: 3px;
+		margin-top: 0;
+		margin-bottom: 15px;
 	}
 	
 	#container #contentWrapperShadow #contentWrapper #contentNav hr,
@@ -827,9 +829,8 @@
 		font-size: 22px;
 		font-weight: bold;
 		font-family: Arial;
-		margin-bottom: 0.5em;
+		margin-bottom: 10px;
 		letter-spacing: -1px;
-		line-height: 1.1em;
 	}
 	
 	#container #contentWrapperShadow #contentWrapper div.line {
@@ -1977,7 +1978,7 @@
 		display: block;
 		padding: 0 0 1.0em 0;
 		color: #2971a7;
-		font-size: 1.2em;
+		font-size: 12px;
 	}
 	
 	.moduleCM2-1 {
@@ -3162,7 +3163,7 @@
 		display: block;
 		padding: 0 0 1.0em 0;
 		color: #2971a7;
-		font-size: 1.2em;
+		font-size: 12px;
 	}
 	
 	
