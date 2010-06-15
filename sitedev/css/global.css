@@ -827,9 +827,8 @@
 		font-size: 22px;
 		font-weight: bold;
 		font-family: Arial;
-		margin-bottom: 0.5em;
+		margin-bottom: 10px;
 		letter-spacing: -1px;
-		line-height: 1.1em;
 	}
 	
 	#container #contentWrapperShadow #contentWrapper div.line {
