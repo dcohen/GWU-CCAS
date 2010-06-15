@@ -813,6 +813,8 @@
 	#container #contentWrapperShadow #contentWrapper #contentMain div.hr.small,
 	#container #contentWrapperShadow #contentWrapper #contentRelated div.hr.small {
 		height: 3px;
+		margin-top: 0;
+		margin-bottom: 15px;
 	}
 	
 	#container #contentWrapperShadow #contentWrapper #contentNav hr,
