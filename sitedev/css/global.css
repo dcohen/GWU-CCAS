@@ -2050,6 +2050,8 @@
 	
 	#moduleCM3 .videoCarousel .videoThumb .caption span {
 		display: none;
+		font-size: 11px;
+		line-height: 1.2em;
 	}
 	
 	#moduleCM3 .videoCarousel .videoThumb .caption span:hover {
