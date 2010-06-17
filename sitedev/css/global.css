@@ -1139,6 +1139,7 @@
 		font-family: Georgia;
 		color: #2971a7;
 		font-size: 12px;
+		line-height: 1.2em;
 		display: block;
 		text-align: right;
 	}
@@ -3822,7 +3823,7 @@
 	}
 	
 	#moduleCM23 ul a {
-		line-height: 1.2em;
+		line-height: 1.4em;
 		text-decoration: none;
 	}
 	
