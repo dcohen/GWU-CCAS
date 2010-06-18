@@ -934,7 +934,6 @@
 	}
 	 
 	#container #contentWrapperShadow #footer {
-		margin-top: 3em;
 	}
 	
 	#container #contentWrapperShadow #footer .footer940 {
@@ -963,8 +962,9 @@
 		height: 6px;
 		background-color: #4282b1;
 		border-top: 1px solid #1a496b;
-		width: 100%;
-		
+		width: 940px;
+		margin-left: auto;
+		margin-right: auto;		
 		margin-bottom: 2.0em;
 	}
 	
@@ -1008,8 +1008,6 @@
 	}
 	
 	#container #contentWrapperShadow #footer #footerRight #footerChildMenu ul li.first {
-		padding-left: 0;
-		border: 0;
 		float: left;
 	}
 	
@@ -4433,9 +4431,7 @@
 	
 	.moduleGM1-1 ul {
 		list-style: none;
-		list-style-position: outside !important;
-		margin: 0;
-		padding: 0;
+		list-style: url(../images/arrowCM33List.gif) inside !important;		
 	}
 	
 	.moduleGM1-1 .featureVisual {
