@@ -1139,6 +1139,7 @@
 		font-family: Georgia;
 		color: #2971a7;
 		font-size: 12px;
+		line-height: 1.2em;
 		display: block;
 		text-align: right;
 	}
@@ -2050,6 +2051,8 @@
 	
 	#moduleCM3 .videoCarousel .videoThumb .caption span {
 		display: none;
+		font-size: 11px;
+		line-height: 1.2em;
 	}
 	
 	#moduleCM3 .videoCarousel .videoThumb .caption span:hover {
@@ -2308,7 +2311,7 @@
 	
 	#moduleCM4-2 .spotlight h3 {
 		font-weight: bold;
-		font-size: 1.2em;
+		font-size: 1.1em;
 		margin-bottom: 0;
 	}
 	
@@ -2594,10 +2597,6 @@
 	
 	#moduleCM7-1 {
 		margin-bottom: 30px;
-	}
-	
-	#moduleCM7-1 h2 {
-		margin-bottom: 0em !important;
 	}
 	
 	#moduleCM7-1 div.hr.small {
@@ -3774,7 +3773,6 @@
 		margin: 0;
 		padding: 0;
 		list-style: none;
-		margin-top: -1.0em;
 		margin-bottom: 1.0em;
 		margin-left: 1.0em;
 		list-style: url(../images/arrowCM33List.gif) outside;
@@ -3819,7 +3817,6 @@
 		margin: 0;
 		padding: 0;
 		list-style: none;
-		margin-top: -1.0em;
 		margin-bottom: 1.0em;
 		margin-left: 1.0em;
 		list-style: url(../images/arrowCM33List.gif) outside;
@@ -3960,7 +3957,6 @@
 		list-style: url(../images/arrowCM33List.gif) inside;
 		margin: 0;
 		padding: 0;
-		margin-top: -1.0em;
 		margin-bottom: 1.0em;
 	}
 	
