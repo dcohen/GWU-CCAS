@@ -985,7 +985,6 @@
 	
 	#container #contentWrapperShadow #footer #footerRight {
 		margin-left: 437px;
-	
 	}
 	
 	#container #contentWrapperShadow #footer #footerRight #footerChildMenu {
@@ -996,9 +995,12 @@
 	}
 	
 	#container #contentWrapperShadow #footer #footerRight #footerChildMenu br {
-		clear: both;
 	}
 	
+	#container #contentWrapperShadow #footer #footerRight #footerChildMenu ul {
+		float: left;
+		width: 100%;
+	}
 	
 	#container #contentWrapperShadow #footer #footerRight #footerChildMenu ul li {
 		float: left;
@@ -1017,6 +1019,7 @@
 	
 	#container #contentWrapperShadow #footer #footerRight #footerChildMenu ul.local li {
 		margin-bottom: 8px;
+		
 	}
 	
 	#container #contentWrapperShadow #footer #footerRight #footerChildMenu ul.social {
