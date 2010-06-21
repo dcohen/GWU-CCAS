@@ -3950,6 +3950,12 @@
 		color: #555;
 	}
 	
+	#moduleCM25 p.date {
+		font-size: 1.2em;
+		font-family: Georgia;
+		font-style: italic;
+	}
+	
 	#moduleCM25 img {
 		margin-bottom: 1.0em;
 	}
@@ -3963,8 +3969,12 @@
 	#moduleCM25 h4 {
 		font-size: 1.2em;
 		font-weight: bold;
-		margin: 10px 0;
+		margin: 0;
 		line-height: 1.3em;
+	}
+	
+	#moduleCM25 h4.last {
+		margin-bottom: 10px;
 	}
 	
 	#moduleCM25 p {
@@ -3990,6 +4000,12 @@
 	}
 	
 	#moduleCM25 div.date {
+		line-height: 1.3em;
+	}
+	
+	#moduleCM25 div.listHolder {
+		margin-bottom: 1.0em;
+		font-size: 1.2em;
 		line-height: 1.3em;
 	}
 	
