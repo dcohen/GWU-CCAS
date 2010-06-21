@@ -985,7 +985,6 @@
 	
 	#container #contentWrapperShadow #footer #footerRight {
 		margin-left: 437px;
-	
 	}
 	
 	#container #contentWrapperShadow #footer #footerRight #footerChildMenu {
@@ -996,9 +995,12 @@
 	}
 	
 	#container #contentWrapperShadow #footer #footerRight #footerChildMenu br {
-		clear: both;
 	}
 	
+	#container #contentWrapperShadow #footer #footerRight #footerChildMenu ul {
+		float: left;
+		width: 100%;
+	}
 	
 	#container #contentWrapperShadow #footer #footerRight #footerChildMenu ul li {
 		float: left;
@@ -1017,6 +1019,7 @@
 	
 	#container #contentWrapperShadow #footer #footerRight #footerChildMenu ul.local li {
 		margin-bottom: 8px;
+		
 	}
 	
 	#container #contentWrapperShadow #footer #footerRight #footerChildMenu ul.social {
@@ -3921,6 +3924,7 @@
 	
 	#moduleCM24 .mediaContact {
 		margin-top: 1.0em;
+		margin-bottom: 1.0em;
 	}
 	
 	#moduleCM24 .mediaContact span {
@@ -3935,9 +3939,33 @@
 		font-style: italic;
 	}
 	
+	#moduleCM24 ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		margin-bottom: 1.0em;
+		margin-left: 1.0em;
+		list-style: url(../images/arrowCM33List.gif) outside;
+	}
+	
+	#moduleCM24 ul a {
+		line-height: 1.4em;
+		text-decoration: none;
+	}
+	
+	#moduleCM24 ul a:hover {
+		text-decoration: underline;
+	}	
+	
 	#moduleCM25 {
 		margin-bottom: 30px;
 		color: #555;
+	}
+	
+	#moduleCM25 p.date {
+		font-size: 1.2em;
+		font-family: Georgia;
+		font-style: italic;
 	}
 	
 	#moduleCM25 img {
@@ -3953,8 +3981,12 @@
 	#moduleCM25 h4 {
 		font-size: 1.2em;
 		font-weight: bold;
-		margin: 10px 0;
+		margin: 0;
 		line-height: 1.3em;
+	}
+	
+	#moduleCM25 h4.last {
+		margin-bottom: 10px;
 	}
 	
 	#moduleCM25 p {
@@ -3980,6 +4012,12 @@
 	}
 	
 	#moduleCM25 div.date {
+		line-height: 1.3em;
+	}
+	
+	#moduleCM25 div.listHolder {
+		margin-bottom: 1.0em;
+		font-size: 1.2em;
 		line-height: 1.3em;
 	}
 	
