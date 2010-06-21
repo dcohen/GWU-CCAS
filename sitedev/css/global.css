@@ -3909,6 +3909,7 @@
 	
 	#moduleCM24 .mediaContact {
 		margin-top: 1.0em;
+		margin-bottom: 1.0em;
 	}
 	
 	#moduleCM24 .mediaContact span {
@@ -3922,6 +3923,24 @@
 		margin: 0;
 		font-style: italic;
 	}
+	
+	#moduleCM24 ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		margin-bottom: 1.0em;
+		margin-left: 1.0em;
+		list-style: url(../images/arrowCM33List.gif) outside;
+	}
+	
+	#moduleCM24 ul a {
+		line-height: 1.4em;
+		text-decoration: none;
+	}
+	
+	#moduleCM24 ul a:hover {
+		text-decoration: underline;
+	}	
 	
 	#moduleCM25 {
 		margin-bottom: 30px;
