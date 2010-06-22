@@ -2676,10 +2676,6 @@
 	}
 	
 	#moduleCM8 .popularCloud ul li {
-		
-		background-image: url(../images/bgCM8Dot.gif);
-		background-position: 100% 50%;
-		background-repeat: no-repeat;
 		list-style: none;
 		float: left;
 		margin: 0;
