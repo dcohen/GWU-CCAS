@@ -9,7 +9,7 @@
 
 
 #container #contentWrapperShadow #contentWrapper #contentMain #moduleCM3 .videoCarousel .videoThumb.current {
-	background-image: url(../js/bgVideoAggregatorCurrent.png);
+	background-image: url(../images/bgVideoAggregatorCurrent.png);
 	z-index: 3;
 }
 
