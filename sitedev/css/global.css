@@ -1674,9 +1674,8 @@
 	}
 	
 	#moduleMM4 ul {
-		margin: 0;
 		padding: 0;
-		margin: 0.5em 0 0 0;
+		margin: 0.3em 0 0 0;
 		list-style: none;
 	}
 	
@@ -1706,7 +1705,7 @@
 	}
 	
 	#moduleMM4 div.line {
-		margin: 0.5em 0 0 0 !important;
+		margin: 0.3em 0 0 0 !important;
 	}
 	
 	/* Side Navigation Modules */
@@ -3483,38 +3482,45 @@
 	#moduleCM14 .spotlight .spotlightDescription a {
 		color: #2971a7;	
 	}
-	
+
 	#moduleCM14 .spotlightCarousel {
-		text-indent: -9999em;	
+	}
 	
-		width: 100%;
+	#moduleCM14 .spotlightCarousel .spotlightContainer {
+		float: right;
+		position: relative;
+		left: -50%;
 	}
 	
 	#moduleCM14 .spotlightCarousel ul {
-		width: 106px;
-		padding: 0.5em 0;
-		margin-left: auto;
-		margin-right: auto;
 		list-style: none;
+		float: left;
+		position: relative;
+		left: 50%;
+		margin: 0;
+		padding: 0;
+		padding-top: 0.5em;	
 	}
 	
 	#moduleCM14 .spotlightCarousel ul li {
 		float: left;
+		position: relative;
 	}
 	
 	#moduleCM14 .spotlightCarousel ul li a {
-		display: block;
+		background-color: #bbb;
+		cursor: pointer;
 		width: 10px;
 		height: 10px;
-		background-color: #bbb;
+		display: block;
 		margin-left: 6px;
-		cursor: pointer;
+		text-indent: -9999em;
 	}
 	
 	#moduleCM14 .spotlightCarousel ul li a:hover {
 		background-color: #2971A7;
 	}
-	
+
 	#moduleCM14 .spotlightCarousel ul li.current a {
 		background-color: #2971A7;
 	}
@@ -3524,14 +3530,15 @@
 		background-position: left;
 		width: 6px;
 		height: 11px;
-		margin-left: 0px;
+		margin: 0;
+		position: relative;
 		background-color: transparent;
 	}
-	
+
 	#moduleCM14 .spotlightCarousel ul li.prev a:hover {
 		background-color: transparent;
 	}
-	
+
 	#moduleCM14 .spotlightCarousel ul li.next a {
 		background-image: url(../images/bgSpotlightCarouselArrows.gif);
 		background-color: transparent;
@@ -3539,11 +3546,15 @@
 		width: 6px;
 		height: 11px;
 	}
-	
+
 	#moduleCM14 .spotlightCarousel ul li.next a:hover {
 		background-color: transparent;
 	}
 	
+	
+	
+	
+
 	#moduleCM15 {
 		float: right;
 		margin-bottom: -3.0em;

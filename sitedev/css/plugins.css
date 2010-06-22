@@ -325,11 +325,10 @@
 		right: -15px;
 		width: 30px;
 		height: 30px;
-		background-image: url('../js/fancybox/fancy_close.png');
+		background-image: url('../images/fancybox/fancy_close.png');
 		background-position: -30px 0px;
 		cursor: pointer;
 		z-index: 1103;
-		display: none;
 	}
 	
 	#fancybox_error {
