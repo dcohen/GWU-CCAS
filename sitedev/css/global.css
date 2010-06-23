@@ -932,7 +932,40 @@
 	#container #contentWrapperShadow #footer li.blogs a {
 		background-image: url(../images/iconConnectBlogs.gif);
 	}
-	 
+	
+	#container #contentWrapperShadow #footer li.more {
+		padding-left: 0em !important;
+		margin-left: 1.0em;
+	}
+	
+	#container #contentWrapperShadow #footer li.more ul.socialMore {
+		position: absolute;
+		height: 140px;
+		width: 195px !important;
+		margin-top: -142px;
+		margin-left: 7px;
+		border: 1px solid #cccccc;
+		background-color: #ffffff;
+		display: none;
+	}	
+	
+	#container #contentWrapperShadow #footer li.more:hover ul.socialMore {
+		display: block;
+	}
+	
+	#container #contentWrapperShadow #footer li.more ul.socialMore li {
+		padding: 0;
+	}
+
+	
+	#container #contentWrapperShadow #footer li.more:hover ul li a {
+		display: block;
+		height: 18px;
+		line-height: 18px;
+		background-position: left;
+		background-repeat: no-repeat;
+	}
+	
 	#container #contentWrapperShadow #footer {
 	}
 	
@@ -992,6 +1025,12 @@
 	
 	#container #contentWrapperShadow #footer #footerRight #footerChildMenu a {
 		color: #847d6e;
+
+	}
+	
+	#container #contentWrapperShadow #footer #footerRight #footerChildMenu li.more a {
+		color: #2971a7;
+		padding-left: 0em !important;
 	}
 	
 	#container #contentWrapperShadow #footer #footerRight #footerChildMenu br {
@@ -1039,6 +1078,28 @@
 		background-position: left;
 		background-repeat: no-repeat;
 		padding-left: 2.0em;
+	}
+	
+	#container #contentWrapperShadow #footer #footerRight #footerChildMenu ul.social li ul li {
+		padding: 0;
+	}
+	
+	#container #contentWrapperShadow #footer #footerRight #footerChildMenu ul.social li ul li ul {
+		width: 50%;
+	}
+	
+	#container #contentWrapperShadow #footer #footerRight #footerChildMenu ul.social li ul li ul.left {
+		float: left;
+	}
+	
+	#container #contentWrapperShadow #footer #footerRight #footerChildMenu ul.social li ul li ul li {
+		padding: 0.5em 0 0 0.5em;	
+	}
+	
+	#container #contentWrapperShadow #footer #footerRight #footerChildMenu ul.social li ul li a {
+		padding-left: 2.0em !important;
+		font-size: 12px;
+
 	}
 	
 	#container #contentWrapperShadow #footer #footerChildMenu ul.social li.first a {

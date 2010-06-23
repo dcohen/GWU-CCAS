@@ -18,6 +18,11 @@
 	padding-top: 0;
 }
 
+#container #contentWrapperShadow #footer li.more ul.socialMore {
+	margin-top: -122px;
+	margin-left: -30px;
+}
+
 /* OPACITY */
 #container #contentWrapperShadow #contentWrapper #hero #heroImage #heroCaption {
 	filter: alpha(opacity=70);
