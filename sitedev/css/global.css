@@ -929,6 +929,23 @@
 		background-image: url(../images/iconConnectRss.gif);
 	}
 	
+	
+	#container #contentWrapperShadow #footer li.flickr a {
+		background-image: url(../images/iconConnectFlickr.gif);
+	}
+	
+	#container #contentWrapperShadow #footer li.youtube a {
+		background-image: url(../images/iconConnectYoutube.gif);
+	}
+	
+	#container #contentWrapperShadow #footer li.linkedin a {
+		background-image: url(../images/iconConnectLinkedin.gif);
+	}
+	
+	#container #contentWrapperShadow #footer li.newsletter a {
+		background-image: url(../images/iconConnectNewsletter.gif);
+	}
+	
 	#container #contentWrapperShadow #footer li.blogs a {
 		background-image: url(../images/iconConnectBlogs.gif);
 	}
