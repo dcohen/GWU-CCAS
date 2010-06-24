@@ -350,7 +350,7 @@ $(document).ready(function()
 
 	$("a.photoGallery").fancybox({
 		'type'				: 'iframe',
-		'hideOnContentClick': true,
+		'hideOnContentClick': false,
 		'width'         	: 525,
 		'height'        	: 510,
 		'scrolling'			: 'no',
@@ -365,7 +365,7 @@ $(document).ready(function()
 	
 	$("a.youtube").fancybox({
 		'type'				: 'swf',
-		'hideOnContentClick': true,
+		'hideOnContentClick': false,
 		'width'         	: 615,
 		'height'        	: 370,
 		'scrolling'			: 'no',
