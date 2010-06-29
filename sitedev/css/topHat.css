@@ -294,6 +294,12 @@ body {
 	background-image: url(../images/arrowDown.gif);
 }
 
+#container #header #topHat #mainMenu ul.parent li a.current {
+	color: #fff;
+	text-decoration: none;
+	background-image: url(../images/arrowDown.gif);
+}
+
 #container #header #topHat #mainMenu ul.parent li ul li a {
 	background-image: none;
 }
