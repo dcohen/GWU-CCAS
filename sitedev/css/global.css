@@ -3370,7 +3370,7 @@
 	}
 	
 	.moduleCM13 p {
-		font-size: 1.2em;
+		font-size: 1.2em !important;
 		line-height: 1.2em;
 		padding: 0 15px 10px 15px;
 		color: #fff;
