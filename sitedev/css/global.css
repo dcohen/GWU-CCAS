@@ -1581,17 +1581,17 @@
 	
 	#moduleMM1-2 {
 		margin-bottom: 30px;
-		margin-bottom: 1.0em;
 	}
 	
 	#moduleMM1-2 .carouselHolder {
 		padding-bottom: 1.0em;
+		min-height: 153px;
 	}
 	
 	#moduleMM1-2 .videoCarousel {
-		background-image: url(../images/bgCM3-2Carousel.gif);
+		background-image: url(../images/bgMM1-2Carousel.gif);
 		background-repeat: no-repeat;
-		height: 109px;
+		height: 153px;
 		width: 170px;
 		float: left;
 		margin-right: 0;
@@ -1608,6 +1608,10 @@
 		left: 50px;
 		height: 39px;
 		width: 39px;
+	}
+	
+	#moduleMM1-2 .videoCarousel p {
+		margin-left: 0.5em;
 	}
 	
 	#moduleMM1-2 .videoDescription p {
