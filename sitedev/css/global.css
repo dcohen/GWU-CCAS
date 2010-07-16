@@ -129,6 +129,10 @@
 		margin-bottom: 1.0em;
 	}
 	
+	.left {
+		float: left;
+	}
+	
 	#contentNav p,
 	#contentRelated p {
 		color: #555;
