@@ -377,6 +377,21 @@ $(document).ready(function()
 		'overlayOpacity'	: 0.7,
 		'onComplete'		: function() { }
 	});
+	
+	$("a.videoGallery").fancybox({
+		'type'				: 'iframe',
+		'hideOnContentClick': false,
+		'width'         	: 676,
+		'height'        	: 441,
+		'scrolling'			: 'no',
+		'autoDimensions'	: false,
+		'transitionIn'		: 'elastic',
+		'transitionOut'		: 'elastic',
+		'overlayColor'		: '#000',
+		'padding'			: 0,
+		'overlayOpacity'	: 0.7,
+		'onComplete'		: function() { }
+	});
 	/* Apply fancybox to multiple items */
 
 // END: FancyBox
