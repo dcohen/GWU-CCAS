@@ -4147,18 +4147,15 @@
 		margin-bottom: 1.0em;
 	}
 	
-	#moduleCM26 .moduleItem .profileContactInfo p {
+	#moduleCM26 .moduleItem .itemImage img {
+		margin-bottom: 0;
+	}
+		
+	#moduleCM26 p {
 		margin-bottom: 1.0em;
 		line-height: 1.3em;
 		font-size: 1.2em;
 	}
-	
-	#moduleCM26 .moduleItem .profileResume p {
-		margin-bottom: 1.0em;
-		line-height: 1.3em;
-		font-size: 1.2em;
-	}
-	
 	
 	#moduleCM27 {
 		background-color: #000;
