@@ -4735,6 +4735,13 @@
 		line-height: 1.2em;		
 	}
 	
+	#moduleMS1 a.subMore {
+		display: block;
+		text-align: right;
+		font-style: normal;
+		font-size: 1.1em;
+	}
+	
 	#moduleMS1 h3 {
 		margin: 0;
 		font-size: 1.1em;
@@ -4775,11 +4782,7 @@
 		font-family: Georgia;
 		font-style: italic;
 	}
-	
-	#moduleMS1 .featureAuthor a {
-		display: block;
-		text-align: right;
-	}
+
 	
 	#moduleMS1 .socialLinks {
 		font-size: 1.2em;
