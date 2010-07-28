@@ -298,6 +298,7 @@ body {
 	color: #fff;
 	text-decoration: none;
 	background-image: url(../images/arrowDown.gif);
+	background-color: #0e7a9d;
 }
 
 #container #header #topHat #mainMenu ul.parent li ul li a {
