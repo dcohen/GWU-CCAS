@@ -4840,3 +4840,50 @@
 		list-style-position: outside;
 		margin: 0 0 0 25px;
 	}
+	
+/* COLOR SETS */
+
+#container.colorset1 #contentWrapperShadow #contentWrapper #heroMenu {
+	background-color: #518db5;
+
+}
+
+#container.colorset1 #contentWrapperShadow #contentWrapper #heroMenu ul {
+	background-color: #03314b;
+}
+
+#container.colorset1 #contentWrapperShadow #contentWrapper #heroMenu ul li a {
+	background-color: #03314b;
+	color: #dfedf5;
+}
+
+#container.colorset1 #contentWrapperShadow #contentWrapper #heroMenu ul li a:hover {
+	background-color: #518db5;
+	color: #fff;
+}
+
+#container.colorset1 #contentWrapperShadow #contentWrapper #heroMenu ul ul {
+	background-color: #F6F3EB;
+	border: 1px solid #518db5;
+	border-top: 6px solid #518db5;
+}
+
+#container.colorset1 #contentWrapperShadow #contentWrapper #heroMenu ul li:hover a,
+#container.colorset1 #contentWrapperShadow #contentWrapper #heroMenu ul li a.current {
+	border-bottom: 2px solid #518db5;
+}
+
+#container.colorset1 #contentWrapperShadow #contentWrapper #heroMenu ul li ul li a {
+	border-bottom: 0px none !important;
+}
+
+#container.colorset1 #contentWrapperShadow #contentWrapper #contentNav div.hr,
+#container.colorset1 #contentWrapperShadow #contentWrapper #contentMain div.hr,
+#container.colorset1 #contentWrapperShadow #contentWrapper #contentRelated div.hr {
+	background-color: #dae4eb;
+}
+
+#container.colorset1 #contentWrapperShadow #contentWrapper #contentMain div.hr {
+	background-color: #518db5;
+	border-top: 1px solid #03314b;
+}
